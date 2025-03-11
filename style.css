@@ -1,0 +1,18 @@
+:root {
+  /* background */
+  --bg-blue_sub: #005db9;
+  --bg-yellow_main: #fdb913;
+  --bg-white: #ffffff;
+
+  /* color */
+  --yellow_main: #fdb913;
+  --white_main: #ffffff;
+  --blue_main: #2e3192;
+  --blue_sub: #005db9;
+  --gray_main: #555555;
+  --gray_sub: #757575;
+  --green_main: #00ce30;
+}
+/*  */
+body {
+}
