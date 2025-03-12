@@ -1,3 +1,38 @@
-.footer {
-  color: var(--gray_sub);
+/* footer-top */
+.footer_top {
+  width: 100%;
+  background-color: var( --blue_main);
+  color: white !important;
 }
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding-left: 0 !important;
+}
+ul li a {
+  text-decoration: none; 
+  color: inherit; 
+  display: block; 
+  padding: 5px 0px; 
+}   
+#logo {
+  filter: invert(1);
+  transition: filter 0.3s ease-in-out;
+}
+#logo, #icon_map, #icon_home, #icon_phone, #icon_email, #icon_facebook, #icon_youtube, #icon_tiktok, #icon_instagram {
+  font-size: 20px;
+  transition: color 0.3s ease;
+  filter: brightness(0) invert(1); /* Đổi màu icon thành trắng */
+}
+/* footer-end */
+.footer_end {
+  /* position: fixed; */
+  width: 100%;
+  background-color: var( --bg-blue_sub);
+  color: white !important;
+  /* bottom: 0; */
+}
+
