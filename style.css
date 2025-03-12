@@ -4,6 +4,8 @@
   --bg-blue_main: #2e3192;
   --bg-yellow_main: #fdb913;
   --bg-white: #ffffff;
+  --bg-black-sub: #f2f2f2;
+  --bg-gray-sub: #eeeeee;
 
   /* color */
   --yellow_main: #fdb913;
@@ -13,6 +15,7 @@
   --gray_main: #555555;
   --gray_sub: #757575;
   --green_main: #00ce30;
+  --black-main: #222;
 }
 /*  */
 body {
@@ -61,16 +64,7 @@ body {
   background-color: var(--bg-white);
   border-radius: 14px;
 }
-/* .logo__img {
-  position: absolute;
-  width: 154px;
-  height: 70px;
-  z-index: 10;
-  object-fit: cover;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
+
 .nav__list {
   display: none;
   margin-top: 25px;
@@ -102,6 +96,91 @@ body {
   top: 30px;
   right: 12px;
   padding: 4px;
+}
+/* back ground */
+.bg-primary-2 {
+  background: var(--bg-blue_sub);
+}
+.bg-yellow {
+  background: var(--bg-yellow_main);
+}
+.bg-black-sub {
+  background: var(--bg-black-sub);
+}
+.bg-black-sub {
+  background: var(--bg-black-sub);
+}
+.bg-gray-sub {
+  background: var(--bg-gray-sub);
+}
+/* font size */
+.fs-18 {
+  font-size: 18px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+/* border radius */
+.rounded-14 {
+  border-radius: 14px;
+}
+.rounded-20 {
+  border-radius: 20px;
+}
+.rounded-30 {
+  border-radius: 30px;
+}
+.rounded-40 {
+  border-radius: 40px;
+}
+.border-color-sub {
+  border: 2px solid var(--blue_sub);
+}
+/* btn */
+.btn-primary {
+  background-color: var(--bg-blue_sub);
+  color: var(--white_main);
+}
+.title-2 {
+  color: var(--blue_main);
+  font-weight: 700;
+  font-size: 34px;
+}
+.title-28 {
+  color: var(--blue_main);
+  font-weight: 700;
+  font-size: 28px;
+}
+/* icon */
+.icon__img {
+  width: 16px;
+  height: 16px;
+}
+/* text */
+.text-primary {
+  color: var(--blue_main) !important;
+}
+.text-secondary {
+  color: var(--blue_sub);
+}
+.text-yellow {
+  color: var(--yellow_main);
+}
+.text-gray-sub {
+  color: var(--gray_sub);
+}
+/* margin */
+.mt-10 {
+  margin-top: 4rem;
 }
 @media screen and (min-width: 992px) {
   .nav__list {

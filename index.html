@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="header/header.css" />
     <link rel="stylesheet" href="footer/footer.css" />
+    <link rel="stylesheet" href="css/index.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -19,15 +19,732 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Consulting</title>
   </head>
   <body>
     <header id="header"></header>
-    <main class="">
-      <section class="banner position-relative">
-        <div class="position-absolute d-flex flex-column banner__slogan">
+    <main class="d-grid gap-5 py-2">
+      <section class="banner">
+        <div class="d-flex flex-column banner__slogan">
           <h1>Doanh nghiệp bền vững cộng đồng khỏe mạnh</h1>
-          <button class="btn btn-outline-dark">Tìm hiểu dịch vụ</button>
+          <button
+            class="btn btn-outline-dark bg-white border-0 text-primary fw-bolder d-flex align-items-center justify-content-center gap-1"
+          >
+            Tìm hiểu dịch vụ
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+      <section class="information">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <h3 class="fw-bolder title-2">Chúng tôi là Thuận Phát</h3>
+              <p class="fs-16">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip exea com modo consequat. Duis aute irure dolor
+                in repreh enderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.
+              </p>
+              <button class="btn btn-primary rounded-40">
+                Xem thêm
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+            <div class="col-12 col-lg-6 mt-3 mt-lg-0 position-relative">
+              <img
+                alt="img_infomation"
+                class="information__img rounded-3"
+                src="https://s3-alpha-sig.figma.com/img/32af/33f3/afad88d380a9cf225659c4ace963de13?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LmwNpcvmx0-6zfzWAbiNaal3BL78MkFGQhChdg7435ZKq-ZAV8OHnbO2xyauPeOac4oUaHfFDIbNuYRM25kYkOAbU~GfCRS~h6ZO9PPY7Zrkusftpx7awhL9wckfAnkcYcp~d7p4F~fwS9yIzVdyLO6zbvkmkA01-WOIxvWkzyGqQy6DanyM68xyyecoPpDKhD7UAU9gYd39ntPD5P0yoS9hKTxeMFhrUTQDTfa~hmJYSuA3Hu9uTF4PhnuE6GhTtfhzPN19TFTL1SDuPJqpX~i8BWb1bVncKj4w6e~lvXzPnqv7lN03j3z9eInvnm9kZo8NsbK-4zV9uV88eNMVoA__"
+              />
+              <div class="position-absolute play_infomation">
+                <img src="./assets/icons/play.svg " class="img__icon ms-2" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service__product d-grid gap-3">
+        <h3 class="title-28 text-center">Dịch vụ công bố sản phẩm</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div
+                style="height: 100%; width: 100%"
+                class="rounded-14 overflow-hidden bg-black-sub"
+              >
+                <img
+                  style="width: 100%; height: 200px; object-fit: cover"
+                  src="https://s3-alpha-sig.figma.com/img/8fd5/c43d/18f3516b582656fb218d0f452881667c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=eq1mzRxhEa687Pwz-6owu5OcgLk196~O0FZ2rDcJSSQ9hZbCSGKA4p2F9LmQEzFXp1LIMZr7rlKPvZ6stm4n1NPu6W5faLpGwW1pSZvm~R~ntlm27FYe3oHg92x3IjCPB5aMRUdJw4EwvIQznGTuZrbOqDka9KJV9RdEa2rKss2RoUSFgpZtlQc7UAzG4PfWuXfVzDYVImQXJoDEv-U-EcRc3NLDxrYaJjEVbFonrhrJpx9qDSiUfRycl0TQvTaLHRb1WBoinWxRyKvCpII6zmdK7QmbWt23wxga2Cu2qsOZmvEnTO0pHuLMKlzcW5hdDKMxQGXAXykPoEAmL~wZmA__"
+                />
+                <div
+                  class="bg-primary-2 d-flex justify-content-start align-items-center gap-2 p-2"
+                >
+                  <img src="./assets/icons/star.svg" />
+                  <h3 class="fs-20 text-center text-white mt-1">
+                    Dịch vụ công bố chất lượng sản phẩm
+                  </h3>
+                </div>
+                <ul class="d-grid gap-1">
+                  <li
+                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4 border-bottom"
+                  >
+                    <span class="text-primary fw-normal"
+                      >Thực phẩm trong nước
+                    </span>
+                    <div
+                      class="d-flex align-items-center justify-content-center border border-color-sub"
+                    >
+                      <img
+                        src="./assets/icons/arrow-right.svg"
+                        class="border-1 border-black"
+                        style="width: 20px; height: 20px"
+                      />
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4 border-bottom"
+                  >
+                    <span class="text-primary fw-normal"
+                      >Thực phẩm nhập khẩu
+                    </span>
+                    <div
+                      class="d-flex align-items-center justify-content-center border border-color-sub"
+                    >
+                      <img
+                        src="./assets/icons/arrow-right.svg"
+                        class="border-1 border-black"
+                        style="width: 20px; height: 20px"
+                      />
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4 border-bottom"
+                  >
+                    <span class="text-primary fw-normal"
+                      >Thực phẩm chức năng
+                    </span>
+                    <div
+                      class="d-flex align-items-center justify-content-center border border-color-sub"
+                    >
+                      <img
+                        src="./assets/icons/arrow-right.svg"
+                        class="border-1 border-black"
+                        style="width: 20px; height: 20px"
+                      />
+                    </div>
+                  </li>
+                  <li
+                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4"
+                  >
+                    <span class="text-primary fw-normal"
+                      >Bao bì, dụng cụ tiếp xúc thực phẩm
+                    </span>
+                    <div
+                      class="d-flex align-items-center justify-content-center border border-color-sub"
+                    >
+                      <img
+                        src="./assets/icons/arrow-right.svg"
+                        class="border-1 border-black"
+                        style="width: 20px; height: 20px"
+                      />
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 rounded-30">
+              <ul style="height: 100%" class="d-grid gap-2 mt-3 mt-lg-0">
+                <li
+                  class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
+                >
+                  <img
+                    style="width: 50px; height: 50px"
+                    src="./assets/icons/docs-edit.svg"
+                  />
+                  <span class="text-primary fs-20">Thủ tục đơn giản</span>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
+                >
+                  <img
+                    style="width: 50px; height: 50px"
+                    src="./assets/icons/24/7.svg"
+                  />
+                  <span class="text-primary fs-20">Hỗ trợ 24/7</span>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
+                >
+                  <img
+                    style="width: 50px; height: 50px"
+                    src="./assets/icons/docs-star.svg"
+                  />
+                  <span class="text-primary fs-20"
+                    >Thông tin minh bạch, công khai</span
+                  >
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
+                >
+                  <img
+                    style="width: 50px; height: 50px"
+                    src="./assets/icons/live-chat.svg"
+                  />
+                  <span class="text-primary fs-20"
+                    >Dịch vụ tận tâm, hỗ trợ nhiệt tình sau khi nộp hồ sơ</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="service__other d-grid gap-3">
+        <h3 class="title-28 text-center">Các dịch vụ khác</h3>
+        <div class="container">
+          <div class="row gx-2 g-2">
+            <div class="col-6 col-md-3 col-lg-4">
+              <div
+                style="height: 100%"
+                class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+              >
+                <h6 class="text-white mt-2">Giấy phép quảng cáo</h6>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4">
+              <div
+                style="height: 100%"
+                class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+              >
+                <h6 class="text-white mt-2">
+                  Đăng ký chỉ định cơ sở kiểm nghiệm
+                </h6>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4">
+              <div
+                style="height: 100%"
+                class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+              >
+                <h6 class="text-white mt-2">Đăng ký cấp giấy chứng nhận GMP</h6>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4">
+              <div
+                style="height: 100%"
+                class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+              >
+                <h6 class="text-white mt-2">Giấy chứng nhận Y Tế</h6>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4">
+              <div
+                style="height: 100%"
+                class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+              >
+                <h6 class="text-white mt-2">Giấy chứng nhận Xuất khẩu</h6>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-4">
+              <div
+                style="height: 100%"
+                class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+              >
+                <h6 class="text-white mt-2">Giấy chứng nhận lưu hành tự do</h6>
+                <i class="fa-solid fa-arrow-right text-white"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="steps">
+        <div class="steps_container">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div
+                  class="d-flex flex-column align-items-start justify-content-start mt-3 mt-lg-5"
+                >
+                  <h4 class="text-white fs-28 fw-bolder">
+                    Các bước làm hồ sơ tại Thuận Phát
+                  </h4>
+                  <p class="text-white fs-16">
+                    Liên hệ ngay với chúng tôi, chuyên gia sẽ hướng dẫn bạn
+                  </p>
+                  <button
+                    class="d-flex align-items-center justify-content-center btn-primary rounded-20 p-2 px-3 border-0 gap-2"
+                  >
+                    Liên hệ ngay
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div
+                  class="d-flex flex-column align-items-start justify-content-start mt-4 mt-lg-5 gx-2"
+                >
+                  <div
+                    class="d-flex align-items-start justify-content-start gap-2"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
+                      style="width: 70px; border-radius: 180px; padding: 11px"
+                    >
+                      1
+                    </div>
+                    <div class="grid gap-1">
+                      <h4 class="text-white">Đăng ký</h4>
+                      <p class="text-white">
+                        Excepteur sint occaecat cupidatat non proident sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex align-items-start justify-content-start gap-2"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
+                      style="width: 70px; border-radius: 180px; padding: 11px"
+                    >
+                      2
+                    </div>
+                    <div class="grid gap-1">
+                      <h4 class="text-white">Tư vấn</h4>
+                      <p class="text-white">
+                        Excepteur sint occaecat cupidatat non proident sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex align-items-start justify-content-start gap-2"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
+                      style="width: 70px; border-radius: 180px; padding: 11px"
+                    >
+                      3
+                    </div>
+                    <div class="grid gap-1">
+                      <h4 class="text-white">
+                        Khách hàng nộp hồ sơ cho chuyên viên
+                      </h4>
+                      <p class="text-white">
+                        Excepteur sint occaecat cupidatat non proident sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex align-items-start justify-content-start gap-2"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
+                      style="width: 70px; border-radius: 180px; padding: 11px"
+                    >
+                      4
+                    </div>
+                    <div class="grid gap-1">
+                      <h4 class="text-white">Hoàn thiện hồ sơ</h4>
+                      <p class="text-white">
+                        Excepteur sint occaecat cupidatat non proident sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex align-items-start justify-content-start gap-2"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
+                      style="width: 70px; border-radius: 180px; padding: 11px"
+                    >
+                      5
+                    </div>
+                    <div class="grid gap-1">
+                      <h4 class="text-white">Chuyên viên đại diện hồ sơ</h4>
+                      <p class="text-white">
+                        Excepteur sint occaecat cupidatat non proident sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex align-items-start justify-content-start gap-2"
+                  >
+                    <div
+                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
+                      style="width: 70px; border-radius: 180px; padding: 11px"
+                    >
+                      6
+                    </div>
+                    <div class="grid gap-1">
+                      <h4 class="text-white">Gửi lại kết quả cho khách hàng</h4>
+                      <p class="text-white">
+                        Excepteur sint occaecat cupidatat non proident sunt in
+                        culpa qui officia deserunt mollit anim id est laborum
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="d-grid gap-3">
+        <h3 class="title-28 text-center">Vì sao nên chọn Thuận Phát</h3>
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
+            >
+              <img src="./assets/icons/docs-star.svg" />
+              <h4 class="text-primary fs-20 fw-bolder mt-3">Minh bạch</h4>
+              <p class="fs-16 text-dark">
+                Chi phí công khai, minh bạch. Thông tin đầy đủ, chính xác & chân
+                thực.
+              </p>
+            </div>
+            <div
+              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
+            >
+              <img src="./assets/icons/live-chat.svg" />
+              <h4 class="text-primary fs-20 fw-bolder mt-3">Tận tâm</h4>
+              <p class="fs-16 text-dark">
+                Thuận Phát hướng dẫn & tìm kiếm giải pháp tối ưu cho từng bộ hồ
+                sơ của khách hàng
+              </p>
+            </div>
+            <div
+              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
+            >
+              <img src="./assets/icons/24/7.svg" />
+              <h4 class="text-primary fs-20 fw-bolder mt-3">Tưc thì</h4>
+              <p class="fs-16 text-dark">
+                Sẵn sàng tư vấn & hỗ trợ 24/7 qua hotline và live chat. Trả lời
+                email trong 4h làm việc
+              </p>
+            </div>
+            <div
+              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
+            >
+              <img src="./assets/icons/clock.svg" />
+              <h4 class="text-primary fs-20 fw-bolder mt-3">Chính xác</h4>
+              <p class="fs-16 text-dark">
+                Tuân thủ chuẩn quy trình tương tác khách hàng & thực hiện đúng
+                giờ, đúng hẹn, đúng cam kết.
+              </p>
+            </div>
+            <div
+              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
+            >
+              <img src="./assets/icons/icon_bat_tay.svg" />
+              <h4 class="text-primary fs-20 fw-bolder mt-3">Tôn trọng</h4>
+              <p class="fs-16 text-dark">
+                Mọi khách hàng đến với Thuận Phát đều được lắng nghe, tư vấn và
+                được hướng dẫn.
+              </p>
+            </div>
+            <div
+              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
+            >
+              <img src="./assets/icons/icon_sercurity.svg" />
+              <h4 class="text-primary fs-20 fw-bolder mt-3">Bảo mật</h4>
+              <p class="fs-16 text-dark">
+                Thuận Phát cam kết thực hiện nguyên tắc bảo mật tuyệt đối thông
+                tin khách hàng.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="feedback d-grid gap-3 bg-primary-2 py-4">
+        <h3 class="fs-28 text-white text-center fw-bolder">
+          Khách hàng nói gì về chúng tôi
+        </h3>
+        <div class="slide__comments">
+          <div class="container">
+            <div class="row g-2 g-lg-3">
+              <div class="col-6 col-lg-3">
+                <div class="bg-white rounded-14 overflow-hidden">
+                  <div class="p-2 d-grid gap-1">
+                    <img src="./assets/icons/icon_cmt.svg" />
+                    <div
+                      class="d-flex align-items-center justify-content-start gap-1"
+                    >
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                    </div>
+                    <p class="fs-16">
+                      Dịch vụ rất chuyên nghiệp, hỗ trợ tận tình từng bước. Hồ
+                      sơ được hoàn thiện nhanh chóng và đầy đủ, mình rất hài
+                      lòng!
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-sub p-2 d-flex align-items-center justify-content-start gap-2"
+                  >
+                    <div class="">
+                      <img
+                        style="
+                          width: 70px;
+                          height: 70px;
+                          border-radius: 180px;
+                          object-fit: cover;
+                        "
+                        src="https://s3-alpha-sig.figma.com/img/4162/414c/9b3f703ad8d5623b1cf082032f5945e2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jyc-L~WOfAjLQ2s0IfTDQHc5K-N5hNwAKmQqqGmpOcfqbHo4bAZpg2Yy9qPnrcdYucoEWd6hRCN6HZVvnVNwS01MF8ih~0hF33OuX98cCoCHd43EN6mHkIxQ6-wSIP7JsfuMxnXn63HnuzXV8GO0QVTgsMTI1B98-Vmfoswf9-ogjQxIs0hFZhpT8EJGc0VOA7HB1csytDcxQWPLaRs7mKHarZLeEz-9tqRWSpmK~EAjz19-V57sWuynJ~hC7ZcRl8NHpzUpZXL9hqMT3uXETUk~AmdoVqpSxFkL9LYcpvjrKrGpi9RM2xDrU~kGt9-oSZRV9aPrS0IpI1wnnCyo0A__"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fs-18 fw-bolder text-primary">
+                        Mr. Trung Kiên
+                      </h4>
+                      <span class="text-gray-sub">CEO Visana</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="bg-white rounded-14 overflow-hidden">
+                  <div class="p-2 d-grid gap-1">
+                    <img src="./assets/icons/icon_cmt.svg" />
+                    <div
+                      class="d-flex align-items-center justify-content-start gap-1"
+                    >
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                    </div>
+                    <p class="fs-16">
+                      Dịch vụ rất chuyên nghiệp, hỗ trợ tận tình từng bước. Hồ
+                      sơ được hoàn thiện nhanh chóng và đầy đủ, mình rất hài
+                      lòng!
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-sub p-2 d-flex align-items-center justify-content-start gap-2"
+                  >
+                    <div class="">
+                      <img
+                        style="
+                          width: 70px;
+                          height: 70px;
+                          border-radius: 180px;
+                          object-fit: cover;
+                        "
+                        src="https://s3-alpha-sig.figma.com/img/4162/414c/9b3f703ad8d5623b1cf082032f5945e2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jyc-L~WOfAjLQ2s0IfTDQHc5K-N5hNwAKmQqqGmpOcfqbHo4bAZpg2Yy9qPnrcdYucoEWd6hRCN6HZVvnVNwS01MF8ih~0hF33OuX98cCoCHd43EN6mHkIxQ6-wSIP7JsfuMxnXn63HnuzXV8GO0QVTgsMTI1B98-Vmfoswf9-ogjQxIs0hFZhpT8EJGc0VOA7HB1csytDcxQWPLaRs7mKHarZLeEz-9tqRWSpmK~EAjz19-V57sWuynJ~hC7ZcRl8NHpzUpZXL9hqMT3uXETUk~AmdoVqpSxFkL9LYcpvjrKrGpi9RM2xDrU~kGt9-oSZRV9aPrS0IpI1wnnCyo0A__"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fs-18 fw-bolder text-primary">
+                        Mr. Trung Kiên
+                      </h4>
+                      <span class="text-gray-sub">CEO Visana</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="bg-white rounded-14 overflow-hidden">
+                  <div class="p-2 d-grid gap-1">
+                    <img src="./assets/icons/icon_cmt.svg" />
+                    <div
+                      class="d-flex align-items-center justify-content-start gap-1"
+                    >
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                    </div>
+                    <p class="fs-16">
+                      Dịch vụ rất chuyên nghiệp, hỗ trợ tận tình từng bước. Hồ
+                      sơ được hoàn thiện nhanh chóng và đầy đủ, mình rất hài
+                      lòng!
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-sub p-2 d-flex align-items-center justify-content-start gap-2"
+                  >
+                    <div class="">
+                      <img
+                        style="
+                          width: 70px;
+                          height: 70px;
+                          border-radius: 180px;
+                          object-fit: cover;
+                        "
+                        src="https://s3-alpha-sig.figma.com/img/4162/414c/9b3f703ad8d5623b1cf082032f5945e2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jyc-L~WOfAjLQ2s0IfTDQHc5K-N5hNwAKmQqqGmpOcfqbHo4bAZpg2Yy9qPnrcdYucoEWd6hRCN6HZVvnVNwS01MF8ih~0hF33OuX98cCoCHd43EN6mHkIxQ6-wSIP7JsfuMxnXn63HnuzXV8GO0QVTgsMTI1B98-Vmfoswf9-ogjQxIs0hFZhpT8EJGc0VOA7HB1csytDcxQWPLaRs7mKHarZLeEz-9tqRWSpmK~EAjz19-V57sWuynJ~hC7ZcRl8NHpzUpZXL9hqMT3uXETUk~AmdoVqpSxFkL9LYcpvjrKrGpi9RM2xDrU~kGt9-oSZRV9aPrS0IpI1wnnCyo0A__"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fs-18 fw-bolder text-primary">
+                        Mr. Trung Kiên
+                      </h4>
+                      <span class="text-gray-sub">CEO Visana</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="bg-white rounded-14 overflow-hidden">
+                  <div class="p-2 d-grid gap-1">
+                    <img src="./assets/icons/icon_cmt.svg" />
+                    <div
+                      class="d-flex align-items-center justify-content-start gap-1"
+                    >
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                      <i class="fa-solid fa-star text-yellow"></i>
+                    </div>
+                    <p class="fs-16">
+                      Dịch vụ rất chuyên nghiệp, hỗ trợ tận tình từng bước. Hồ
+                      sơ được hoàn thiện nhanh chóng và đầy đủ, mình rất hài
+                      lòng!
+                    </p>
+                  </div>
+                  <div
+                    class="bg-gray-sub p-2 d-flex align-items-center justify-content-start gap-2"
+                  >
+                    <div class="">
+                      <img
+                        style="
+                          width: 70px;
+                          height: 70px;
+                          border-radius: 180px;
+                          object-fit: cover;
+                        "
+                        src="https://s3-alpha-sig.figma.com/img/4162/414c/9b3f703ad8d5623b1cf082032f5945e2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jyc-L~WOfAjLQ2s0IfTDQHc5K-N5hNwAKmQqqGmpOcfqbHo4bAZpg2Yy9qPnrcdYucoEWd6hRCN6HZVvnVNwS01MF8ih~0hF33OuX98cCoCHd43EN6mHkIxQ6-wSIP7JsfuMxnXn63HnuzXV8GO0QVTgsMTI1B98-Vmfoswf9-ogjQxIs0hFZhpT8EJGc0VOA7HB1csytDcxQWPLaRs7mKHarZLeEz-9tqRWSpmK~EAjz19-V57sWuynJ~hC7ZcRl8NHpzUpZXL9hqMT3uXETUk~AmdoVqpSxFkL9LYcpvjrKrGpi9RM2xDrU~kGt9-oSZRV9aPrS0IpI1wnnCyo0A__"
+                      />
+                    </div>
+                    <div class="">
+                      <h4 class="fs-18 fw-bolder text-primary">
+                        Mr. Trung Kiên
+                      </h4>
+                      <span class="text-gray-sub">CEO Visana</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="news d-grid gap-3">
+        <h3 class="title-28 text-center">Tin tức công ty</h3>
+        <div class="container">
+          <div class="row g-2 g-lg-3">
+            <div class="col-6 col-lg-3 d-grid gap-1">
+              <img
+                style="width: 100%; height: 220px; object-fit: cover"
+                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
+              />
+              <h4 class="text-primary fs-20">
+                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+              </h4>
+              <p class="fs-16 text-gray-sub">
+                Duis aute irure dolor in reprehen derit in volup tate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident sunt in culpa.
+              </p>
+              <div
+                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+              >
+                Xem thêm
+                <i class="fa-solid fa-arrow-right text-primary"></i>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 d-grid gap-1">
+              <img
+                style="width: 100%; height: 220px; object-fit: cover"
+                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
+              />
+              <h4 class="text-primary fs-20">
+                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+              </h4>
+              <p class="fs-16 text-gray-sub">
+                Duis aute irure dolor in reprehen derit in volup tate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident sunt in culpa.
+              </p>
+              <div
+                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+              >
+                Xem thêm
+                <i class="fa-solid fa-arrow-right text-primary"></i>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 d-grid gap-1">
+              <img
+                style="width: 100%; height: 220px; object-fit: cover"
+                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
+              />
+              <h4 class="text-primary fs-20">
+                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+              </h4>
+              <p class="fs-16 text-gray-sub">
+                Duis aute irure dolor in reprehen derit in volup tate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident sunt in culpa.
+              </p>
+              <div
+                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+              >
+                Xem thêm
+                <i class="fa-solid fa-arrow-right text-primary"></i>
+              </div>
+            </div>
+            <div class="col-6 col-lg-3 d-grid gap-1">
+              <img
+                style="width: 100%; height: 220px; object-fit: cover"
+                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
+              />
+              <h4 class="text-primary fs-20">
+                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+              </h4>
+              <p class="fs-16 text-gray-sub">
+                Duis aute irure dolor in reprehen derit in volup tate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident sunt in culpa.
+              </p>
+              <div
+                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+              >
+                Xem thêm
+                <i class="fa-solid fa-arrow-right text-primary"></i>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>

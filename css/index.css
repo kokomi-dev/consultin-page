@@ -5,8 +5,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 .banner__slogan {
+  position: absolute;
   color: var(--white_main);
   top: 50%;
   left: 50%;
@@ -17,8 +19,27 @@
   font-weight: 700;
 }
 .banner__slogan > button {
-  color: var(--white_main);
+  color: var(--black-main);
   border-radius: 24px;
+  max-width: 243px;
+  background-color: var(--bg-white);
+}
+.information__img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.play_infomation {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 180px;
+  background-color: #999;
 }
 @media screen and (max-width: 992px) {
   .banner__slogan {
@@ -30,5 +51,60 @@
   .banner__slogan > h1 {
     font-size: 34px;
     font-weight: 700;
+  }
+}
+.steps {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* filter: blur(4px); */
+  z-index: 1;
+  background-image: url("https://s3-alpha-sig.figma.com/img/f60b/0f7d/caee67a585e3acbb1084aec6d5babee2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=sw-klje~o-rdyJgtgRjMXTyD0iC2hnW7fx7PA9WwvexGMXQXJUihEGRBErFquHsQyJwq2NS9SEqp9IpII1z-OAyzdlGf6wd9tmlAencyKvso4wtI-ASweMKeSORRCaTuaDByFCQGPUeSzB64VTBdApnrdt9cGYuu0r7xVFz3JrUNmHyOX4wH4c3OsA12lQKFuuRXpb1nZpIZaRB3-3STgZC9MjGtfdcZEAMStgmk9qIblUPHLof6pgjpIsXEB7M3dewXciQSMlEvYjFqB36QNEkCCVn9qecXnBvS0uJl1oTLApmgTuh1sJdXFpDRL8avHR28zxPOZefsxIXhO3d5DA__");
+}
+.steps::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #12477d;
+  opacity: 0.7;
+  z-index: 1;
+}
+.steps_container {
+  position: absolute;
+  z-index: 3;
+}
+@media screen and (max-width: 992px) {
+  .steps {
+    height: 860px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .steps {
+    height: 980px;
+  }
+}
+@media screen and (min-width: 568px) {
+  .steps {
+    height: 960px;
+  }
+  .steps_container {
+    margin: 0px 6%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner__slogan {
+    left: 37%;
+  }
+  .steps {
+    height: 850px;
+  }
+  .steps_container {
+    margin: 0px 5%;
   }
 }
