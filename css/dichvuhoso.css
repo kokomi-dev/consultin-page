@@ -1,69 +1,3 @@
-.banner {
-  width: 100%;
-  height: auto;
-  background-image: url("");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
-}
-.banner__slogan {
-  position: absolute;
-  color: var(--white_main);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.banner__slogan > h1 {
-  font-size: 54px;
-  font-weight: 700;
-}
-.banner__slogan > button {
-  color: var(--black-main);
-  border-radius: 24px;
-  max-width: 243px;
-  background-color: var(--bg-white);
-}
-.information__img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-.play_infomation {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 180px;
-  background-color: #999;
-}
-.items__number {
-  width: 55px;
-  height: 55px;
-  flex-shrink: 0;
-}
-
-@media screen and (max-width: 992px) {
-  .banner__slogan {
-    color: var(--white_main);
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-  }
-  .banner__slogan > h1 {
-    font-size: 34px;
-    font-weight: 700;
-  }
-  .items__number {
-    width: 45px;
-    height: 45px;
-    flex-shrink: 0;
-  }
-}
 .steps {
   position: relative;
   width: 100%;
@@ -89,9 +23,23 @@
   position: absolute;
   z-index: 3;
 }
+.logo__item {
+  height: 50px;
+}
+.items__number {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+}
+
 @media screen and (max-width: 992px) {
   .steps {
     height: 860px;
+  }
+  .items__number {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
   }
 }
 @media screen and (max-width: 568px) {
@@ -109,9 +57,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .banner__slogan {
-    left: 37%;
-  }
   .steps {
     height: 850px;
   }

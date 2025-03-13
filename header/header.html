@@ -1,14 +1,13 @@
 <section class="header position-relative">
   <div class="header__top text-white py-2 d-none d-lg-flex">
     <div
-      class="container header__top__lis d-flex justify-content-end align-items-center gap-3"
+      class="container header__top__lis d-flex justify-content-end align-items-center gap-3 p-2"
     >
       <div class="header__top__item d-flex align-items-center gap-2">
         <img
           src="../assets/icons/phone.png"
           alt="phone"
-          width="16"
-          height="16"
+          class="icon__img__16"
         />
         <span
           >Hotline:
@@ -17,84 +16,83 @@
       </div>
       <span>|</span>
       <div class="header__top__item d-flex align-items-center gap-2">
-        <img src="../assets/icons/time.png" alt="time" width="16" height="16" />
+        <img src="../assets/icons/time.png" alt="time" class="icon__img__16" />
         <span>Giờ làm việc: T2 - T6 8:30 - 5:30</span>
       </div>
     </div>
   </div>
-
-  <div class="header__main bg-white shadow-sm position-relative">
+  <div class="header__main bg-blue_main shadow-sm py-2">
     <div class="container">
-      <nav
-        class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center align-items-md-start"
-      >
-        <div
-          class="nav__bar__logo d-flex align-items-center justify-content-center"
-        >
-          <a class="navbar-brand me-auto" href="#">
-            <img
-              src="../assets/icons/logo.png"
-              alt="logo"
-              class="logo__img"
-              width="160"
-            />
-          </a>
-        </div>
-        <div class="d-flex flex-grow-1 justify-content-end">
+      <nav class="row">
+        <div class="col-6 col-lg-4 col-xl-3">
           <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarNav"
+            style="height: auto"
+            class="d-flex align-items-center justify-content-start"
+          >
+            <a class="navbar-brand me-auto" href="../index.html">
+              <img
+                src="../assets/icons/logo.png"
+                alt="logo"
+                class="logo__img"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-xl-9 col-lg-8">
+          <div
+            class="nav__container d-flex align-items-center justify-content-end"
           >
             <ul
-              class="navbar-nav navbar__pc d-flex justify-content-between align-items-center"
+              class="d-none d-xl-flex justify-content-between align-items-center text-primary"
             >
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="../index.html"
-                  >Trang chủ</a
-                >
+              <li>
+                <a aria-current="page" href="../index.html">Trang chủ</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../about.html"
+              <li>
+                <a href="../about.html"
                   >Về chúng tôi
-                  <img src="../assets/icons/arrow-down.png" />
+                  <img
+                    class="icon__img__10"
+                    src="../assets/icons/arrow-down.png"
+                  />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../dichvuhoso.html"
+              <li>
+                <a href="../dichvuhoso.html"
                   >Dịch vụ hồ sơ
-                  <img src="../assets/icons/arrow-down.png" />
+                  <img
+                    class="icon__img__10"
+                    src="../assets/icons/arrow-down.png"
+                  />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../camnagkienthuc.html"
+              <li>
+                <a href="../danhmuccamnagkienthuc.html"
                   >Cẩm nang kiến thức
-                  <img src="../assets//icons//arrow-down.png" />
+                  <img
+                    class="icon__img__10"
+                    src="../assets//icons//arrow-down.png"
+                  />
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../vanbanphapluat.html"
-                  >Văn bản pháp luật</a
-                >
+              <li>
+                <a href="../vanbanphapluat.html">Văn bản pháp luật</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../tintuc.html">Tin tức</a>
+              <li>
+                <a href="../tintuc.html">Tin tức</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../lienhe.html">Liên hệ</a>
+              <li>
+                <a href="../lienhe.html">Liên hệ</a>
               </li>
             </ul>
             <!-- side bar mobile -->
+            <button
+              id="btn__menu"
+              class="btn__sidebar d-block d-xl-none p-2 rounded-3 px-3"
+            >
+              <i class="fa-solid fa-bars text-primary"></i>
+            </button>
           </div>
-          <button
-            id="btn__menu"
-            class="btn__sidebar d-block d-lg-none mt-3 p-2 rounded-3 d-flex justify-content-between align-items-center align-items-md-start"
-            type="button"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
         </div>
       </nav>
       <div
@@ -102,61 +100,59 @@
         class="sidebar__mobile position-fixed right-0 top-0 bg-white z"
       >
         <button id="btn__close" class="position-absolute btn-close"></button>
-        <ul class="navbar-nav d-grid gap-2">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../index.html"
-              >Trang chủ</a
-            >
+        <ul class="navbar-nav d-grid gap-4">
+          <li>
+            <a aria-current="page" href="../index.html">Trang chủ</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./about.html"
+          <li>
+            <a href="./about.html"
               >Về chúng tôi
-              <img src="../assets/icons/arrow-down.png" />
+              <img class="icon__img__10" src="../assets/icons/arrow-down.png" />
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../dichvuhoso.html"
+          <li>
+            <a href="../dichvuhoso.html"
               >Dịch vụ hồ sơ
-              <img src="../assets/icons/arrow-down.png" />
+              <img class="icon__img__10" src="../assets/icons/arrow-down.png" />
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../camnagkienthuc.html"
+          <li>
+            <a href="../danhmuccamnagkienthuc.html"
               >Cẩm nang kiến thức
-              <img src="../assets/icons/arrow-down.png" />
+              <img class="icon__img__10" src="../assets/icons/arrow-down.png" />
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../vanbanphapluat.html"
-              >Văn bản pháp luật</a
-            >
+          <li>
+            <a href="../vanbanphapluat.html">Văn bản pháp luật</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../tintuc.html">Tin tức</a>
+          <li>
+            <a href="../tintuc.html">Tin tức</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../lienhe.html">Liên hệ</a>
+          <li>
+            <a href="../lienhe.html">Liên hệ</a>
           </li>
         </ul>
         <hr />
-        <div class="header__top__item d-flex align-items-center gap-2">
+        <div
+          class="header__top__item d-flex align-items-start justify-content-center gap-2 mt-4"
+        >
           <img
             src="../assets/icons/phone.png"
             alt="phone"
             width="16"
             height="16"
+            class="icon__img__16"
           />
           <span
             >Hotline:
-            <a href="tel:09123456789" class="text-white">09123 456 789</a></span
+            <a href="tel:09123456789" class="text-dark">09123 456 789</a></span
           >
         </div>
-        <div class="header__top__item d-flex align-items-center gap-2 mt-2">
+        <div class="header__top__item d-flex align-items-center gap-2 mt-4">
           <img
             src="../assets/icons/time.png"
             alt="time"
-            width="16"
-            height="16"
+            class="icon__img__16"
           />
           <span>Giờ làm việc: T2 - T6 8:30 - 5:30</span>
         </div>
