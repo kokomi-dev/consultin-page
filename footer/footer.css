@@ -29,10 +29,8 @@ ul li a {
 }
 /* footer-end */
 .footer_end {
-  /* position: fixed; */
   width: 100%;
   background-color: var( --bg-blue_sub);
   color: white !important;
-  /* bottom: 0; */
 }
 

@@ -1,0 +1,9 @@
+#icon_arrow {
+    transition: color 0.3s ease;
+    filter: brightness(0) invert(1);
+}
+#input_name, #input_phone, #input_mess, #option:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: transparent !important; 
+}
