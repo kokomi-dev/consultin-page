@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="header/header.css" />
     <link rel="stylesheet" href="footer/footer.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="form/form.css" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -32,35 +33,51 @@
   </head>
   <body>
     <header id="header"></header>
-    <main class="d-grid gap-5 py-2">
-      <section class="banner">
-        <div class="d-flex flex-column banner__slogan">
-          <h1>Doanh nghiệp bền vững cộng đồng khỏe mạnh</h1>
-          <button
-            class="btn btn-outline-dark bg-white border-0 text-primary fw-bolder d-flex align-items-center justify-content-center gap-1"
+    <main class="d-grid gap-5">
+      <section class="img_section position-relative">
+        <div class="col-12 position-relative">
+          <img
+            src="https://s3-alpha-sig.figma.com/img/6e11/9124/ebcb82e02b2a66ae99b4bd7f3743da72?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hCnmVwUy5CqxTjIYvgxxCmBiOfBBpAL7obEZknXRyK5vYKyafTBYUYVRgYLfF1rdL0aETBog7FsIt5PhiFv2B4-QsMbYLtVHjWPpyA4C1EeSGYWwBzj~Kp41uKdV8TE6zYl2F9NlVbYaUfXobAagGlSjEIP5~K9zCLmwfNaiYPAJNApHF2lFYBfk3ZhsuhBJReycbUsc9OvwYerO7iStefF3drdBUoh9pJjFFbq7iZGBFjPkSv0hsIPPhM3nmLqBwyUnRchcqlRsGS16Oe8WCNWznSepCQspTGuXfd1gQtkg5NKKad1VnQOEv2cf7c~Mz~A5NSuo4RWrX~3hznAxMA__"
+            alt="About Image"
+            class="img-fluid rounded shadow"
+            style="max-height: 440px; width: 100%; object-fit: cover; margin: 0"
+          />
+          <!-- <div
+            class="position-absolute top-50 start-50 translate-middle text-white p-3 rounded"
           >
-            Tìm hiểu dịch vụ
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
+            <h2 class="text-start fw-bold fs-28 text-white">
+              Doanh nghiệp bền vững cộng đồng khỏe mạnh
+            </h2>
+            <button
+              class="btn btn-primary text-white rounded-14 border-none mt-4"
+            >
+              Tìm hiểu dịch vụ <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div> -->
         </div>
       </section>
       <section class="information">
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-6">
-              <h3 class="fw-bolder title-2">Chúng tôi là Thuận Phát</h3>
-              <p class="fs-16">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip exea com modo consequat. Duis aute irure dolor
-                in repreh enderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur.
-              </p>
-              <button class="btn btn-primary rounded-40">
-                Xem thêm
-                <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              <div class="d-grid gap-4">
+                <h3 class="fw-bolder title-2">Chúng tôi là Thuận Phát</h3>
+                <p
+                  style="letter-spacing: 0.4px; line-height: 24px"
+                  class="fs-16"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip exea com modo consequat. Duis aute
+                  irure dolor in repreh enderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur.
+                </p>
+                <button class="btn btn-primary rounded-40">
+                  Xem thêm
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
             </div>
             <div class="col-12 col-lg-6 mt-3 mt-lg-0 position-relative">
               <img
@@ -69,13 +86,16 @@
                 src="https://s3-alpha-sig.figma.com/img/32af/33f3/afad88d380a9cf225659c4ace963de13?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LmwNpcvmx0-6zfzWAbiNaal3BL78MkFGQhChdg7435ZKq-ZAV8OHnbO2xyauPeOac4oUaHfFDIbNuYRM25kYkOAbU~GfCRS~h6ZO9PPY7Zrkusftpx7awhL9wckfAnkcYcp~d7p4F~fwS9yIzVdyLO6zbvkmkA01-WOIxvWkzyGqQy6DanyM68xyyecoPpDKhD7UAU9gYd39ntPD5P0yoS9hKTxeMFhrUTQDTfa~hmJYSuA3Hu9uTF4PhnuE6GhTtfhzPN19TFTL1SDuPJqpX~i8BWb1bVncKj4w6e~lvXzPnqv7lN03j3z9eInvnm9kZo8NsbK-4zV9uV88eNMVoA__"
               />
               <div class="position-absolute play_infomation">
-                <img src="./assets/icons/play.svg " class="img__icon ms-2" />
+                <img
+                  src="./assets/icons/play.svg "
+                  class="icon__img__22 ms-2"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="service__product d-grid gap-3">
+      <section class="service__product d-grid gap-4">
         <h3 class="title-28 text-center">Dịch vụ công bố sản phẩm</h3>
         <div class="container">
           <div class="row">
@@ -91,14 +111,14 @@
                 <div
                   class="bg-primary-2 d-flex justify-content-start align-items-center gap-2 p-2"
                 >
-                  <img src="./assets/icons/star.svg" />
-                  <h3 class="fs-20 text-center text-white mt-1">
+                  <img class="icon__img__22" src="./assets/icons/star.svg" />
+                  <h3 class="fs-20 fw-bolder text-center text-white">
                     Dịch vụ công bố chất lượng sản phẩm
                   </h3>
                 </div>
                 <ul class="d-grid gap-1">
                   <li
-                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4 border-bottom"
+                    class="d-flex justify-content-between align-items-center bg-black p-3 px-4 border-bottom"
                   >
                     <span class="text-primary fw-normal"
                       >Thực phẩm trong nước
@@ -114,7 +134,7 @@
                     </div>
                   </li>
                   <li
-                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4 border-bottom"
+                    class="d-flex justify-content-between align-items-center bg-black p-3 px-4 border-bottom"
                   >
                     <span class="text-primary fw-normal"
                       >Thực phẩm nhập khẩu
@@ -130,7 +150,7 @@
                     </div>
                   </li>
                   <li
-                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4 border-bottom"
+                    class="d-flex justify-content-between align-items-center bg-black p-3 px-4 border-bottom"
                   >
                     <span class="text-primary fw-normal"
                       >Thực phẩm chức năng
@@ -146,7 +166,7 @@
                     </div>
                   </li>
                   <li
-                    class="d-flex justify-content-between align-items-center bg-black p-2 px-4"
+                    class="d-flex justify-content-between align-items-center bg-black p-3 px-4"
                   >
                     <span class="text-primary fw-normal"
                       >Bao bì, dụng cụ tiếp xúc thực phẩm
@@ -170,10 +190,10 @@
                   class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
                 >
                   <img
-                    style="width: 50px; height: 50px"
+                    style="width: 50px; height: 50px; object-fit: contain"
                     src="./assets/icons/docs-edit.svg"
                   />
-                  <span class="text-primary fs-20">Thủ tục đơn giản</span>
+                  <span class="text-primary fs-18">Thủ tục đơn giản</span>
                 </li>
                 <li
                   class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
@@ -182,7 +202,7 @@
                     style="width: 50px; height: 50px"
                     src="./assets/icons/24/7.svg"
                   />
-                  <span class="text-primary fs-20">Hỗ trợ 24/7</span>
+                  <span class="text-primary fs-18">Hỗ trợ 24/7</span>
                 </li>
                 <li
                   class="d-flex align-items-center justify-content-start gap-2 bg-black-sub rounded-30 p-2 px-4"
@@ -191,7 +211,7 @@
                     style="width: 50px; height: 50px"
                     src="./assets/icons/docs-star.svg"
                   />
-                  <span class="text-primary fs-20"
+                  <span class="text-primary fs-18"
                     >Thông tin minh bạch, công khai</span
                   >
                 </li>
@@ -202,7 +222,7 @@
                     style="width: 50px; height: 50px"
                     src="./assets/icons/live-chat.svg"
                   />
-                  <span class="text-primary fs-20"
+                  <span class="text-primary fs-18"
                     >Dịch vụ tận tâm, hỗ trợ nhiệt tình sau khi nộp hồ sơ</span
                   >
                 </li>
@@ -215,72 +235,82 @@
         <h3 class="title-28 text-center">Các dịch vụ khác</h3>
         <div class="container">
           <div class="row gx-2 g-2">
-            <div class="col-6 col-md-3 col-lg-4">
+            <div class="col-6 col-md-3 col-lg-2">
               <div
                 style="height: 100%"
                 class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
               >
-                <h6 class="text-white mt-2">Giấy phép quảng cáo</h6>
+                <h6 class="text-white" style="line-height: 24px">
+                  Giấy phép quảng cáo
+                </h6>
                 <i class="fa-solid fa-arrow-right text-white"></i>
               </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-4">
+            <div class="col-6 col-md-3 col-lg-2">
               <div
                 style="height: 100%"
                 class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
               >
-                <h6 class="text-white mt-2">
+                <h6 class="text-white" style="line-height: 24px">
                   Đăng ký chỉ định cơ sở kiểm nghiệm
                 </h6>
                 <i class="fa-solid fa-arrow-right text-white"></i>
               </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-4">
+            <div class="col-6 col-md-3 col-lg-2">
               <div
                 style="height: 100%"
                 class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
               >
-                <h6 class="text-white mt-2">Đăng ký cấp giấy chứng nhận GMP</h6>
+                <h6 class="text-white" style="line-height: 24px">
+                  Đăng ký cấp giấy chứng nhận GMP
+                </h6>
                 <i class="fa-solid fa-arrow-right text-white"></i>
               </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-4">
+            <div class="col-6 col-md-3 col-lg-2">
               <div
                 style="height: 100%"
                 class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
               >
-                <h6 class="text-white mt-2">Giấy chứng nhận Y Tế</h6>
+                <h6 class="text-white" style="line-height: 24px">
+                  Giấy chứng nhận Y Tế
+                </h6>
                 <i class="fa-solid fa-arrow-right text-white"></i>
               </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-4">
+            <div class="col-6 col-md-3 col-lg-2">
               <div
                 style="height: 100%"
                 class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
               >
-                <h6 class="text-white mt-2">Giấy chứng nhận Xuất khẩu</h6>
+                <h6 class="text-white" style="line-height: 24px">
+                  Giấy chứng nhận Xuất khẩu
+                </h6>
                 <i class="fa-solid fa-arrow-right text-white"></i>
               </div>
             </div>
-            <div class="col-6 col-md-3 col-lg-4">
+            <div class="col-6 col-md-3 col-lg-2">
               <div
                 style="height: 100%"
                 class="bg-primary-2 p-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
               >
-                <h6 class="text-white mt-2">Giấy chứng nhận lưu hành tự do</h6>
+                <h6 class="text-white" style="line-height: 24px">
+                  Giấy chứng nhận lưu hành tự do
+                </h6>
                 <i class="fa-solid fa-arrow-right text-white"></i>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="steps">
+      <section class="steps d-flex align-items-center justify-content-center">
         <div class="steps_container">
           <div class="container">
-            <div class="row">
+            <div class="row g-4">
               <div class="col-12 col-lg-6">
                 <div
-                  class="d-flex flex-column align-items-start justify-content-start mt-3 mt-lg-5"
+                  class="d-flex flex-column align-items-start justify-content-start gap-3"
                 >
                   <h4 class="text-white fs-28 fw-bolder">
                     Các bước làm hồ sơ tại Thuận Phát
@@ -298,20 +328,19 @@
               </div>
               <div class="col-12 col-lg-6">
                 <div
-                  class="d-flex flex-column align-items-start justify-content-start mt-4 mt-lg-5 gx-2"
+                  class="d-flex flex-column align-items-start justify-content-start gap-5"
                 >
                   <div
-                    class="d-flex align-items-start justify-content-start gap-2"
+                    class="d-flex align-items-start justify-content-between gap-2"
                   >
                     <div
-                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
-                      style="width: 70px; border-radius: 180px; padding: 11px"
+                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       1
                     </div>
-                    <div class="grid gap-1">
-                      <h4 class="text-white">Đăng ký</h4>
-                      <p class="text-white">
+                    <div class="d-grid gap-2">
+                      <h4 class="text-white fs-20 fw-bolder">Đăng ký</h4>
+                      <p class="text-white" style="line-height: 20px">
                         Excepteur sint occaecat cupidatat non proident sunt in
                         culpa qui officia deserunt mollit anim id est laborum
                       </p>
@@ -321,14 +350,13 @@
                     class="d-flex align-items-start justify-content-start gap-2"
                   >
                     <div
-                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
-                      style="width: 70px; border-radius: 180px; padding: 11px"
+                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       2
                     </div>
-                    <div class="grid gap-1">
-                      <h4 class="text-white">Tư vấn</h4>
-                      <p class="text-white">
+                    <div class="d-grid gap-2">
+                      <h4 class="text-white fs-20 fw-bolder">Tư vấn</h4>
+                      <p class="text-white" style="line-height: 20px">
                         Excepteur sint occaecat cupidatat non proident sunt in
                         culpa qui officia deserunt mollit anim id est laborum
                       </p>
@@ -338,16 +366,15 @@
                     class="d-flex align-items-start justify-content-start gap-2"
                   >
                     <div
-                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
-                      style="width: 70px; border-radius: 180px; padding: 11px"
+                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       3
                     </div>
-                    <div class="grid gap-1">
-                      <h4 class="text-white">
+                    <div class="d-grid gap-2">
+                      <h4 class="text-white fs-20 fw-bolder">
                         Khách hàng nộp hồ sơ cho chuyên viên
                       </h4>
-                      <p class="text-white">
+                      <p class="text-white" style="line-height: 20px">
                         Excepteur sint occaecat cupidatat non proident sunt in
                         culpa qui officia deserunt mollit anim id est laborum
                       </p>
@@ -357,14 +384,15 @@
                     class="d-flex align-items-start justify-content-start gap-2"
                   >
                     <div
-                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
-                      style="width: 70px; border-radius: 180px; padding: 11px"
+                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       4
                     </div>
-                    <div class="grid gap-1">
-                      <h4 class="text-white">Hoàn thiện hồ sơ</h4>
-                      <p class="text-white">
+                    <div class="d-grid gap-2">
+                      <h4 class="text-white fs-20 fw-bolder">
+                        Hoàn thiện hồ sơ
+                      </h4>
+                      <p class="text-white" style="line-height: 20px">
                         Excepteur sint occaecat cupidatat non proident sunt in
                         culpa qui officia deserunt mollit anim id est laborum
                       </p>
@@ -374,14 +402,15 @@
                     class="d-flex align-items-start justify-content-start gap-2"
                   >
                     <div
-                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
-                      style="width: 70px; border-radius: 180px; padding: 11px"
+                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       5
                     </div>
-                    <div class="grid gap-1">
-                      <h4 class="text-white">Chuyên viên đại diện hồ sơ</h4>
-                      <p class="text-white">
+                    <div class="d-grid gap-2">
+                      <h4 class="text-white fs-20 fw-bolder">
+                        Chuyên viên đại diện hồ sơ
+                      </h4>
+                      <p class="text-white" style="line-height: 20px">
                         Excepteur sint occaecat cupidatat non proident sunt in
                         culpa qui officia deserunt mollit anim id est laborum
                       </p>
@@ -391,14 +420,15 @@
                     class="d-flex align-items-start justify-content-start gap-2"
                   >
                     <div
-                      class="d-flex align-items-center justify-content-center bg-yellow flex-shrink-1 text-primary"
-                      style="width: 70px; border-radius: 180px; padding: 11px"
+                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       6
                     </div>
-                    <div class="grid gap-1">
-                      <h4 class="text-white">Gửi lại kết quả cho khách hàng</h4>
-                      <p class="text-white">
+                    <div class="d-grid gap-2">
+                      <h4 class="text-white fs-20 fw-bolder">
+                        Gửi lại kết quả cho khách hàng
+                      </h4>
+                      <p class="text-white" style="line-height: 20px">
                         Excepteur sint occaecat cupidatat non proident sunt in
                         culpa qui officia deserunt mollit anim id est laborum
                       </p>
@@ -410,84 +440,133 @@
           </div>
         </div>
       </section>
-      <section class="d-grid gap-3">
+      <!-- vì sao nên chọn -->
+      <section class="d-grid gap-5">
         <h3 class="title-28 text-center">Vì sao nên chọn Thuận Phát</h3>
         <div class="container">
-          <div class="row">
-            <div
-              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
-            >
-              <img src="./assets/icons/docs-star.svg" />
-              <h4 class="text-primary fs-20 fw-bolder mt-3">Minh bạch</h4>
-              <p class="fs-16 text-dark">
-                Chi phí công khai, minh bạch. Thông tin đầy đủ, chính xác & chân
-                thực.
-              </p>
+          <div class="row g-5">
+            <div class="col-6 col-md-4">
+              <div
+                class="d-flex flex-column align-items-center justify-content-start gap-3"
+              >
+                <div style="height: 65px">
+                  <img src="./assets/icons/docs-star.svg" />
+                </div>
+                <h4 class="text-primary fs-20 fw-bolder mt-1">Minh bạch</h4>
+                <p
+                  class="fs-16 text-dark text-center px-1 px-md-2 px-lg-5"
+                  style="line-height: 22px"
+                >
+                  Chi phí công khai, minh bạch. Thông tin đầy đủ, chính xác &
+                  chân thực.
+                </p>
+              </div>
             </div>
-            <div
-              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
-            >
-              <img src="./assets/icons/live-chat.svg" />
-              <h4 class="text-primary fs-20 fw-bolder mt-3">Tận tâm</h4>
-              <p class="fs-16 text-dark">
-                Thuận Phát hướng dẫn & tìm kiếm giải pháp tối ưu cho từng bộ hồ
-                sơ của khách hàng
-              </p>
+            <div class="col-6 col-md-4">
+              <div
+                class="d-flex flex-column align-items-center justify-content-start gap-3"
+              >
+                <div style="height: 65px">
+                  <img src="./assets/icons/24/7.svg" />
+                </div>
+                <h4 class="text-primary fs-20 fw-bolder mt-1">Tức thì</h4>
+                <p
+                  class="fs-16 text-dark text-center px-1 px-md-2 px-lg-5"
+                  style="line-height: 22px"
+                >
+                  Sẵn sàng tư vấn & hỗ trợ 24/7 qua hotline và live chat. Trả
+                  lời email trong 4h làm việc
+                </p>
+              </div>
             </div>
-            <div
-              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
-            >
-              <img src="./assets/icons/24/7.svg" />
-              <h4 class="text-primary fs-20 fw-bolder mt-3">Tưc thì</h4>
-              <p class="fs-16 text-dark">
-                Sẵn sàng tư vấn & hỗ trợ 24/7 qua hotline và live chat. Trả lời
-                email trong 4h làm việc
-              </p>
+            <div class="col-6 col-md-4">
+              <div
+                class="d-flex flex-column align-items-center justify-content-start gap-3"
+              >
+                <div style="height: 65px">
+                  <img src="./assets/icons/clock.svg" />
+                </div>
+                <h4 class="text-primary fs-20 fw-bolder mt-1">Chính xác</h4>
+                <p
+                  class="fs-16 text-dark text-center px-1 px-md-2 px-lg-5"
+                  style="line-height: 22px"
+                >
+                  Tuân thủ chuẩn quy trình tương tác khách hàng & thực hiện đúng
+                  giờ, đúng hẹn, đúng cam kết
+                </p>
+              </div>
             </div>
-            <div
-              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
-            >
-              <img src="./assets/icons/clock.svg" />
-              <h4 class="text-primary fs-20 fw-bolder mt-3">Chính xác</h4>
-              <p class="fs-16 text-dark">
-                Tuân thủ chuẩn quy trình tương tác khách hàng & thực hiện đúng
-                giờ, đúng hẹn, đúng cam kết.
-              </p>
+            <div class="col-6 col-md-4">
+              <div
+                class="d-flex flex-column align-items-center justify-content-start gap-3"
+              >
+                <div style="height: 65px">
+                  <img src="./assets/icons/icon_bat_tay.svg" />
+                </div>
+                <h4 class="text-primary fs-20 fw-bolder mt-1">Tôn trọng</h4>
+                <p
+                  class="fs-16 text-dark text-center px-1 px-md-2 px-lg-5"
+                  style="line-height: 22px"
+                >
+                  Mọi khách hàng đến với Thuận Phát đều được lắng nghe, tư vấn
+                  và được hướng dẫn
+                </p>
+              </div>
             </div>
-            <div
-              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
-            >
-              <img src="./assets/icons/icon_bat_tay.svg" />
-              <h4 class="text-primary fs-20 fw-bolder mt-3">Tôn trọng</h4>
-              <p class="fs-16 text-dark">
-                Mọi khách hàng đến với Thuận Phát đều được lắng nghe, tư vấn và
-                được hướng dẫn.
-              </p>
+            <div class="col-6 col-md-4">
+              <div
+                class="d-flex flex-column align-items-center justify-content-start gap-3"
+              >
+                <div style="height: 65px">
+                  <img src="./assets/icons/icon_sercurity.svg" />
+                </div>
+                <h4 class="text-primary fs-20 fw-bolder mt-1">Bảo mật</h4>
+                <p
+                  class="fs-16 text-dark text-center px-1 px-md-2 px-lg-5"
+                  style="line-height: 22px"
+                >
+                  Thuận Phát cam kết thực hiện nguyên tắc bảo mật tuyệt đối
+                  thông tin khách hàng
+                </p>
+              </div>
             </div>
-            <div
-              class="col-6 col-md-4 d-flex flex-column align-items-center justify-content-start gap-1"
-            >
-              <img src="./assets/icons/icon_sercurity.svg" />
-              <h4 class="text-primary fs-20 fw-bolder mt-3">Bảo mật</h4>
-              <p class="fs-16 text-dark">
-                Thuận Phát cam kết thực hiện nguyên tắc bảo mật tuyệt đối thông
-                tin khách hàng.
-              </p>
+            <div class="col-6 col-md-4">
+              <div
+                class="d-flex flex-column align-items-center justify-content-start gap-3"
+              >
+                <div style="height: 65px">
+                  <img src="./assets/icons/live-chat.svg" />
+                </div>
+                <h4 class="text-primary fs-20 fw-bolder mt-1">Tận tâm</h4>
+                <p
+                  class="fs-16 text-dark text-center px-1 px-md-2 px-lg-5"
+                  style="line-height: 22px"
+                >
+                  Thuận Phát hướng dẫn & tìm kiếm giải pháp tối ưu cho từng bộ
+                  hồ sơ của khách hàng
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="feedback d-grid gap-3 bg-primary-2 py-4">
-        <h3 class="fs-28 text-white text-center fw-bolder">
+      <!-- slide comment -->
+      <!-- <section class="feedback d-grid gap-4 bg-primary-2 py-4"> -->
+      <!-- <h3 class="fs-28 text-white text-center fw-bolder">
           Khách hàng nói gì về chúng tôi
-        </h3>
-        <div class="slide__comments">
+        </h3> -->
+      <!-- <div class="slide__comments">
           <div class="container">
             <div class="row g-2 g-lg-3">
-              <div class="col-6 col-lg-3">
+              <div class="col-6 col-lg-4 col-xl-3">
+                
+              <div class="col-6 col-lg-4 col-xl-3">
                 <div class="bg-white rounded-14 overflow-hidden">
                   <div class="p-2 d-grid gap-1">
-                    <img src="./assets/icons/icon_cmt.svg" />
+                    <img
+                      class="icon__img__22"
+                      src="./assets/icons/icon_cmt.svg"
+                    />
                     <div
                       class="d-flex align-items-center justify-content-start gap-1"
                     >
@@ -527,10 +606,13 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-6 col-lg-4 col-xl-3">
                 <div class="bg-white rounded-14 overflow-hidden">
                   <div class="p-2 d-grid gap-1">
-                    <img src="./assets/icons/icon_cmt.svg" />
+                    <img
+                      class="icon__img__22"
+                      src="./assets/icons/icon_cmt.svg"
+                    />
                     <div
                       class="d-flex align-items-center justify-content-start gap-1"
                     >
@@ -570,53 +652,13 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-lg-3">
+              <div class="col-6 col-lg-4 col-xl-3">
                 <div class="bg-white rounded-14 overflow-hidden">
                   <div class="p-2 d-grid gap-1">
-                    <img src="./assets/icons/icon_cmt.svg" />
-                    <div
-                      class="d-flex align-items-center justify-content-start gap-1"
-                    >
-                      <i class="fa-solid fa-star text-yellow"></i>
-                      <i class="fa-solid fa-star text-yellow"></i>
-                      <i class="fa-solid fa-star text-yellow"></i>
-                      <i class="fa-solid fa-star text-yellow"></i>
-                      <i class="fa-solid fa-star text-yellow"></i>
-                      <i class="fa-solid fa-star text-yellow"></i>
-                    </div>
-                    <p class="fs-16">
-                      Dịch vụ rất chuyên nghiệp, hỗ trợ tận tình từng bước. Hồ
-                      sơ được hoàn thiện nhanh chóng và đầy đủ, mình rất hài
-                      lòng!
-                    </p>
-                  </div>
-                  <div
-                    class="bg-gray-sub p-2 d-flex align-items-center justify-content-start gap-2"
-                  >
-                    <div class="">
-                      <img
-                        style="
-                          width: 70px;
-                          height: 70px;
-                          border-radius: 180px;
-                          object-fit: cover;
-                        "
-                        src="https://s3-alpha-sig.figma.com/img/4162/414c/9b3f703ad8d5623b1cf082032f5945e2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jyc-L~WOfAjLQ2s0IfTDQHc5K-N5hNwAKmQqqGmpOcfqbHo4bAZpg2Yy9qPnrcdYucoEWd6hRCN6HZVvnVNwS01MF8ih~0hF33OuX98cCoCHd43EN6mHkIxQ6-wSIP7JsfuMxnXn63HnuzXV8GO0QVTgsMTI1B98-Vmfoswf9-ogjQxIs0hFZhpT8EJGc0VOA7HB1csytDcxQWPLaRs7mKHarZLeEz-9tqRWSpmK~EAjz19-V57sWuynJ~hC7ZcRl8NHpzUpZXL9hqMT3uXETUk~AmdoVqpSxFkL9LYcpvjrKrGpi9RM2xDrU~kGt9-oSZRV9aPrS0IpI1wnnCyo0A__"
-                      />
-                    </div>
-                    <div class="">
-                      <h4 class="fs-18 fw-bolder text-primary">
-                        Mr. Trung Kiên
-                      </h4>
-                      <span class="text-gray-sub">CEO Visana</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-6 col-lg-3">
-                <div class="bg-white rounded-14 overflow-hidden">
-                  <div class="p-2 d-grid gap-1">
-                    <img src="./assets/icons/icon_cmt.svg" />
+                    <img
+                      class="icon__img__22"
+                      src="./assets/icons/icon_cmt.svg"
+                    />
                     <div
                       class="d-flex align-items-center justify-content-start gap-1"
                     >
@@ -658,97 +700,188 @@
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="news d-grid gap-3">
+        </div> -->
+      <!-- <div class="container">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="row"></div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div> -->
+      <!-- </section> -->
+      <!-- tin tức công ty -->
+      <section class="news d-grid gap-4">
         <h3 class="title-28 text-center">Tin tức công ty</h3>
         <div class="container">
-          <div class="row g-2 g-lg-3">
-            <div class="col-6 col-lg-3 d-grid gap-1">
-              <img
-                style="width: 100%; height: 220px; object-fit: cover"
-                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
-              />
-              <h4 class="text-primary fs-20">
-                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
-              </h4>
-              <p class="fs-16 text-gray-sub">
-                Duis aute irure dolor in reprehen derit in volup tate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident sunt in culpa.
-              </p>
-              <div
-                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
-              >
-                Xem thêm
-                <i class="fa-solid fa-arrow-right text-primary"></i>
+          <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="d-grid gap-2">
+                <img
+                  style="width: 100%; height: 220px; object-fit: cover"
+                  src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
+                />
+                <h4
+                  style="line-height: 24px"
+                  class="text-primary fs-20 fw-bolder"
+                >
+                  Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+                </h4>
+                <p
+                  style="line-height: 20px; text-align: justify"
+                  class="fs-16 text-gray-sub"
+                >
+                  Duis aute irure dolor in reprehen derit in volup tate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident sunt in culpa.
+                </p>
+                <div
+                  class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+                >
+                  Xem thêm
+                  <i class="fa-solid fa-arrow-right text-primary"></i>
+                </div>
               </div>
             </div>
-            <div class="col-6 col-lg-3 d-grid gap-1">
-              <img
-                style="width: 100%; height: 220px; object-fit: cover"
-                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
-              />
-              <h4 class="text-primary fs-20">
-                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
-              </h4>
-              <p class="fs-16 text-gray-sub">
-                Duis aute irure dolor in reprehen derit in volup tate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident sunt in culpa.
-              </p>
-              <div
-                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
-              >
-                Xem thêm
-                <i class="fa-solid fa-arrow-right text-primary"></i>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="d-grid gap-2">
+                <img
+                  style="width: 100%; height: 220px; object-fit: cover"
+                  src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
+                />
+                <h4
+                  style="line-height: 24px"
+                  class="text-primary fs-20 fw-bolder"
+                >
+                  Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+                </h4>
+                <p
+                  style="line-height: 20px; text-align: justify"
+                  class="fs-16 text-gray-sub"
+                >
+                  Duis aute irure dolor in reprehen derit in volup tate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident sunt in culpa.
+                </p>
+                <div
+                  class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+                >
+                  Xem thêm
+                  <i class="fa-solid fa-arrow-right text-primary"></i>
+                </div>
               </div>
             </div>
-            <div class="col-6 col-lg-3 d-grid gap-1">
-              <img
-                style="width: 100%; height: 220px; object-fit: cover"
-                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
-              />
-              <h4 class="text-primary fs-20">
-                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
-              </h4>
-              <p class="fs-16 text-gray-sub">
-                Duis aute irure dolor in reprehen derit in volup tate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident sunt in culpa.
-              </p>
-              <div
-                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
-              >
-                Xem thêm
-                <i class="fa-solid fa-arrow-right text-primary"></i>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="d-grid gap-2">
+                <img
+                  style="width: 100%; height: 220px; object-fit: cover"
+                  src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
+                />
+                <h4
+                  style="line-height: 24px"
+                  class="text-primary fs-20 fw-bolder"
+                >
+                  Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+                </h4>
+                <p
+                  style="line-height: 20px; text-align: justify"
+                  class="fs-16 text-gray-sub"
+                >
+                  Duis aute irure dolor in reprehen derit in volup tate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident sunt in culpa.
+                </p>
+                <div
+                  class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+                >
+                  Xem thêm
+                  <i class="fa-solid fa-arrow-right text-primary"></i>
+                </div>
               </div>
             </div>
-            <div class="col-6 col-lg-3 d-grid gap-1">
-              <img
-                style="width: 100%; height: 220px; object-fit: cover"
-                src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
-              />
-              <h4 class="text-primary fs-20">
-                Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
-              </h4>
-              <p class="fs-16 text-gray-sub">
-                Duis aute irure dolor in reprehen derit in volup tate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident sunt in culpa.
-              </p>
-              <div
-                class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
-              >
-                Xem thêm
-                <i class="fa-solid fa-arrow-right text-primary"></i>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="d-grid gap-2">
+                <img
+                  style="width: 100%; height: 220px; object-fit: cover"
+                  src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
+                />
+                <h4
+                  style="line-height: 24px"
+                  class="text-primary fs-20 fw-bolder"
+                >
+                  Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
+                </h4>
+                <p
+                  style="line-height: 20px; text-align: justify"
+                  class="fs-16 text-gray-sub"
+                >
+                  Duis aute irure dolor in reprehen derit in volup tate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident sunt in culpa.
+                </p>
+                <div
+                  class="border-0 rounded-3 d-flex align-items-center justify-content-end gap-1 text-primary"
+                >
+                  Xem thêm
+                  <i class="fa-solid fa-arrow-right text-primary"></i>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <section class="container">
+        <div id="form"></div>
+      </section>
     </main>
-    <div id="footer"></div>
+    <div id="footer" class="mt-4"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
