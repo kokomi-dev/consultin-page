@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./header//header.css" />
+    <link rel="stylesheet" href="./header/header.css" />
     <link rel="stylesheet" href="./footer/footer.css" />
     <link rel="stylesheet" href="./form/form.css" />
     <link rel="stylesheet" href="/css/dichvuhoso.css" />
@@ -27,6 +27,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/tintuc.css" />
 
     <link rel="stylesheet" href="./style.css" />
@@ -37,8 +44,8 @@
     <header id="header"></header>
 
     <main class="">
-      <section class="img_section position-relative">
-        <div class="col-12 position-relative">
+      <section class="position-relative">
+        <div class="col-12 position-relative img__section">
           <img
             src="https://s3-alpha-sig.figma.com/img/7bb2/4a20/6fb61ae7b31d50f2561c19190ea9d07f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cw72O3XMeiaqf5gv136wgXXLa36use977-fHo5SDrQeGWh1kwNDD81qA9LRHxW-~S9QkPcCpnYIVMiTZWxeJlnYmEGGwYcTW6LiCDeydcup3i4mn8eBPC36KRObnrUo9f0Uyk1Lzvb3oZ5PnJ1Gmx~rE5UdvCnuRr2r6fJfNvguejyDlJ7-O0d-citbaBbrcOCjJAzscMhcqaY9TRSniwVFg7ET4pP6Txt~5BKOrnaUYNnFe2cpwJtsjxCHRAVDP7PFaS2-3q6DmigbzTXmtYrcR9GmiyMrG~7J4~kcUVxrTDc13Tj2nip0mA8NyiGLETfiIV8Bp7ZZeKMAKdbDlxw__"
             alt="tin tức Image"
@@ -46,14 +53,14 @@
             style="max-height: 350px; width: 100%; object-fit: cover; margin: 0"
           />
           <div
-            class="position-absolute top-50 start-50 translate-middle text-white p-3 rounded"
+            class="position-absolute top-50 start-50 translate-middle text-white p-3 rounded img__section__text"
           >
-            <h2 class="text-center fw-bold text-yellow">Tin tức</h2>
+            <h2 class="text-center fw-bold text-yellow fs-40">Tin tức</h2>
           </div>
         </div>
       </section>
-      <div class="container d-grid gap-5 mt-4">
-        <div class="d-block d-lg-none">
+      <div class="container d-grid gap-4 mt-2">
+        <div class="d-block d-lg-none mt-3">
           <div class="dropdown">
             <button
               class="btn btn-secondary dropdown-toggle bg-primary-2 text-white border-0 rounded-14 btn__hover"
@@ -101,71 +108,403 @@
             </ul>
           </div>
         </div>
-        <!-- bài viết chính -->
-        <section class="d-grid gap-3">
-          <h4 class="title-28">
-            Người dân ở TPHCM làm bảng chỉ dẫn "chặt hẻm", né tắc đường giờ cao
-            điểm
-          </h4>
-          <div class="">
-            <img
-              style="height: 460px; object-fit: cover; width: 100%"
-              class="rounded-14"
-              src="https://s3-alpha-sig.figma.com/img/0ec4/3241/73d619b04a6d2342d8df33dc1d5e2464?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=t4NqQQPb~qvC0KZpoGQvMm96bkHvPChWmQymk7XR8KjOWyhkZJYVekmftZE-35G-JPG-8TCNdSCHRJhyxjFZwya2nAHSa8-W~PaytZEEiBVo4Oo2DCKjkuojA~G6D7dednPgB4AGqUCgGmths4aQhRILAAgcs8mwSnuz~hgONaxZpzoLKENLXo3wpwrTX1ZS~LRtJ42AvN7Toex3Ff4hSk2Qqm6YYjsDaezLio7AaB5CbUJCXeuQjSV7aSbrjN-dpc6KrHqfmsQ9yPaj4OeUpD2iMItczf0cTtuJONzCe6YYueXLQA46RItnW9ORO06hrLWkH-I~sDQ0eAZPQsYmbw__"
-            />
-          </div>
-          <p class="fs-18 text-gray-sub">
-            Người dân sống ở các con hẻm nhỏ tại TPHCM, nhiệt tình dùng giấy bìa
-            cứng đề bảng, hướng dẫn người tham gia giao thông cách "chặt hẻm" để
-            né kẹt xe vào giờ cao điểm.
-          </p>
-          <div class="d-flex align-items-center justify-content-end">
-            <div
-              class="d-flex align-items-center justify-content-center gap-2 text-primary"
-            >
-              <span>Xem thêm</span>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
-        </section>
-        <!-- danh sách bài viết -->
-        <section class="d-grid gap-3">
-          <div class="row gap-2">
-            <div class="col-12 col-md-5 col-lg-3">
-              <div class="">
-                <img
-                  style="width: 100%; height: 100%; object-fit: cover"
-                  class="rounded-3"
-                  src="https://s3-alpha-sig.figma.com/img/1576/3291/b7042ab7f2dbc8438b365902a2e542f1?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=mDWkbdFwsEFxDrFod0GMUlE22Q4ilKJpn-hhachekCPtPHS~j~yHJ-wPerZGmOTU1cJOilFgTord1R-gBUunxAelvZhPBwZsI2UKiWIUHNFJKZYYs9MfGyQ5zwMP-7oekxu6RME1~HLfhcN5h45oSJu0JnyTupZA7umvFUGe2efSZoC1B8TEOlt2ApeusOA22S0dVmBRvMg5J00SJ-hfSt~wi189bdEWOscjQYNrHjav-xZl3PDeLli~mQeepY4okn7MuULpTgdqXi4mjVdsIVB2XJz9fL3NYtHGV64gPLQylQQBsx370bSFgdN6EEBSFIP36l57sO2FkBPmhPGgzQ__"
-                />
-              </div>
-            </div>
-            <div class="col-12 col-md-7 col-lg-8">
-              <div class="d-grid gap-2">
-                <h5 class="fs-18 text-primary fw-bolder">
-                  Nga - Ukraine ăn miếng trả miếng: "Cuộc chơi bên miệng hố
-                  chiến tranh"
-                </h5>
-                <p class="fs-16 text-gray-sub">
-                  Các động thái "ăn miếng trả miếng" gần đây của Nga và Ukraine
-                  đã làm dấy lên nghi vấn về khả năng xung đột leo thang khi
-                  phương Tây dường như can dự sâu hơn vào cuộc chiến.
+        <div class="row g-md-3 g-lg-4 g-xl-5 mt-0 mt-md-2">
+          <section class="col-12 col-md-12 col-lg-7">
+            <div class="d-grid gap-5">
+              <!-- bài viết chính -->
+              <div class="d-grid gap-3 gap-md-3 gap-lg-4">
+                <h4 style="line-height: 36px" class="title-28">
+                  Người dân ở TPHCM làm bảng chỉ dẫn "chặt hẻm", né tắc đường
+                  giờ cao điểm
+                </h4>
+                <div class="">
+                  <img
+                    style="height: 460px; object-fit: cover; width: 100%"
+                    class="rounded-14"
+                    src="https://s3-alpha-sig.figma.com/img/0ec4/3241/73d619b04a6d2342d8df33dc1d5e2464?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=t4NqQQPb~qvC0KZpoGQvMm96bkHvPChWmQymk7XR8KjOWyhkZJYVekmftZE-35G-JPG-8TCNdSCHRJhyxjFZwya2nAHSa8-W~PaytZEEiBVo4Oo2DCKjkuojA~G6D7dednPgB4AGqUCgGmths4aQhRILAAgcs8mwSnuz~hgONaxZpzoLKENLXo3wpwrTX1ZS~LRtJ42AvN7Toex3Ff4hSk2Qqm6YYjsDaezLio7AaB5CbUJCXeuQjSV7aSbrjN-dpc6KrHqfmsQ9yPaj4OeUpD2iMItczf0cTtuJONzCe6YYueXLQA46RItnW9ORO06hrLWkH-I~sDQ0eAZPQsYmbw__"
+                  />
+                </div>
+                <p class="fs-18 text-gray-sub">
+                  Người dân sống ở các con hẻm nhỏ tại TPHCM, nhiệt tình dùng
+                  giấy bìa cứng đề bảng, hướng dẫn người tham gia giao thông
+                  cách "chặt hẻm" để né kẹt xe vào giờ cao điểm.
                 </p>
                 <div class="d-flex align-items-center justify-content-end">
                   <div
-                    class="d-flex align-items-center justify-content-center gap-2 text-primary"
+                    class="d-flex align-items-center justify-content-center gap-2 text-secondary fw-semibold"
                   >
                     <span>Xem thêm</span>
                     <i class="fa-solid fa-arrow-right"></i>
                   </div>
                 </div>
               </div>
+              <!-- danh sách bài viết  -->
+
+              <div class="d-grid gap-4">
+                <div class="row g-3">
+                  <div class="col-12 col-md-5 col-lg-5">
+                    <img
+                      style="width: 100%; height: 100%; object-fit: cover"
+                      class="rounded-20"
+                      src="https://s3-alpha-sig.figma.com/img/5239/4956/bc6d7fb3d8346b97b6a02176a5374d29?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nJvMYzUqSX3~sITAVhG0r-E9L5e0q1lbBQx-GuTZNpnC04xW~BF6HU87C5aBXSWRcpdL1gy0zYe4LsM-BHioVX0DAQ5y34G-B5WOBmv7XjIBU8yjLcvutvANnVRFYqiDyyD96Uoprka3BCnSMURorg7fi-ZzIF-Tx-LNV6oVdFs4YYIMlh3DtRNUBPCJvx66Rl6yMrCItjNeXqb5TPYjgWl3RSgLShIokPhnhkv4i1B7u4gh9J3Pny76HlvfH1WBkU2fi~QEm5kfbv0J2EIQ4GRKJhzgYHnY~AMh3Kqt-LZUSLMcf0cyl4amJf5eYcj0SqXxbPWRhEpf4bTe-kti-Q__"
+                    />
+                  </div>
+                  <div class="col-12 col-md-7 col-lg-7">
+                    <div class="d-grid gap-3 h-full">
+                      <h5 class="fs-18 text-primary fw-bolder">
+                        Nga - Ukraine ăn miếng trả miếng: "Cuộc chơi bên miệng
+                        hố chiến tranh"
+                      </h5>
+                      <p style="line-height: 22px" class="fs-16 text-gray-sub">
+                        Các động thái "ăn miếng trả miếng" gần đây của Nga và
+                        Ukraine đã làm dấy lên nghi vấn về khả năng xung đột leo
+                        thang khi phương Tây dường như can dự sâu hơn vào cuộc
+                        chiến.
+                      </p>
+                      <div
+                        class="d-flex align-items-center justify-content-end"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-2 text-secondary fw-semibold"
+                        >
+                          <span>Xem thêm</span>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-12 col-md-5 col-lg-5">
+                    <img
+                      style="width: 100%; height: 100%; object-fit: cover"
+                      class="rounded-20"
+                      src="https://s3-alpha-sig.figma.com/img/3d9e/ed69/856e34c015200d49b1f1b945e37849c2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=VrsgTk~ZQBro4T2JkhBe7jHscKjbrQ7f1f-Act8~IwJ5ndwOZYCVd4WoqNvBpd0Pxfvxcy3qWatLph~hpboODT0VrR~S3DoUZFQKyuIPt-E17SOwCED9Gb-rjGLXm3YwoIJ0bWFdrnGtJcI-H9EfxjhjSVRcW3i1WaEa6Kt-TvNHKRv479vEOx~G3gvY9smpfsMXb0muOOACatO2k4J6XYcmj2~5rLrhAsGuk1oeLXBZKmXUZD7G3YB8uk88eoqWjww5KfhqkvyzeCrxHwQe2NgbWLjFxoxkDekZeULfatMwhtwlKaRZfi4So~fFHUKm4955NEIgLNC58rLeNYjAIQ__"
+                    />
+                  </div>
+                  <div class="col-12 col-md-7 col-lg-7">
+                    <div class="d-grid gap-3 h-full">
+                      <h5 class="fs-18 text-primary fw-bolder">
+                        NSND Minh Châu tuổi U70: Chơi pickleball, là đại gia
+                        buôn đất
+                      </h5>
+                      <p style="line-height: 22px" class="fs-16 text-gray-sub">
+                        Sống một mình ở tuổi 68, nghệ sĩ Minh Châu tự tìm niềm
+                        vui, thay vì mong cầu một chỗ dựa. Bà thích lái xe xuyên
+                        Việt, học chơi pickleball, giữ tinh thần và sắc vóc luôn
+                        trẻ trung, nhiều năng lượng.
+                      </p>
+                      <div
+                        class="d-flex align-items-center justify-content-end"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-2 text-secondary fw-semibold"
+                        >
+                          <span>Xem thêm</span>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-12 col-md-5 col-lg-5">
+                    <img
+                      style="width: 100%; height: 100%; object-fit: cover"
+                      class="rounded-20"
+                      src="https://s3-alpha-sig.figma.com/img/5846/8288/5f6959f1f5cac6c366ac9e47ccea915e?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nuGcE5K~3v8xw4DVWlOi6x8mpLh5jRKAYI7Kxqizv6IvmetGodKhqiUXn9sV3d~7aya0fJ9PNka1kHV24qJ4qkh3kP3jqFAbRGyCci86lP3Zign3UzdlG1HTguHiYltdtWvG6s4EDT342P18xTqbCH6EgfFXHJJ7fa4WNfHYP0MPXNqZOc0bsmDoTC0Zz1fTcTvwbLwp6csaXOwNVQp8o4hWBzvvHRnLJJ78~rzveoe9z6lIMi4JrIiy-JqNCSIfEd3kv5lyhUsVzSPYZ8YXovxFp0lhJg0RrtAC-nb-YBKQmCKrohDr4zS-NaY3n17A~AtuBpWfdVA-mz5f74OPFw__"
+                    />
+                  </div>
+                  <div class="col-12 col-md-7 col-lg-7">
+                    <div class="d-grid gap-3 h-full">
+                      <h5 class="fs-18 text-primary fw-bolder">
+                        Thủ tướng yêu cầu giảm mặt bằng lãi suất cho vay
+                      </h5>
+                      <p style="line-height: 22px" class="fs-16 text-gray-sub">
+                        Thủ tướng yêu cầu Ngân hàng Nhà nước chỉ đạo giảm mặt
+                        bằng lãi suất cho vay, hỗ trợ người dân, doanh nghiệp có
+                        điều kiện phát triển sản xuất kinh doanh.
+                      </p>
+                      <div
+                        class="d-flex align-items-center justify-content-end"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-2 text-secondary fw-semibold"
+                        >
+                          <span>Xem thêm</span>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-12 col-md-5 col-lg-5">
+                    <img
+                      style="width: 100%; height: 100%; object-fit: cover"
+                      class="rounded-20"
+                      src="https://s3-alpha-sig.figma.com/img/a8d5/4ff3/a0fdb51a5d1f41f0d5d7b3c8c476503e?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=A0bKi7MjWSmFtDgjRoWVIwUCBzS5~d73Au364OvWYfoAwdOW7CJTtByNHmQMtW-DjBhiAiPlXZniWVXUxp1ISqv5qeplQMwfK6MfsvUMHUXYlYLqkaLwfP-nDC7sjKS3YyJKbJs7Qrsclom5kENOkp6IrcOnxrfhZHY45ec2x7rsKHipUV0Y-akXivEy3r5rXRnRjKB8uRbqL1k1vqJ4es4Y8i1lyUAfgTZxJ0~q70Oj1r1tvI0Uzm-q8je~8r4A6P6wE62Dj~AEY4~duWInhVk-kt~oscqqVMzeUNZUJx0shfAGdx4Tv5vbeSj3lFMCKBbEZK2NFXwYUaWFYjTuDg__"
+                    />
+                  </div>
+                  <div class="col-12 col-md-7 col-lg-7">
+                    <div class="d-grid gap-3 h-full">
+                      <h5 class="fs-18 text-primary fw-bolder">
+                        Con gái, con trai tỷ phú, ông bầu lần đầu lộ diện
+                      </h5>
+                      <p style="line-height: 22px" class="fs-16 text-gray-sub">
+                        2 con trai của tỷ phú Phạm Nhật Vượng, con gái tỷ phú
+                        Nguyễn Đăng Quang, con gái bầu Đức... gần đây xuất hiện
+                        với nhiều vai trò khác nhau, tại doanh nghiệp do cha
+                        mình lãnh đạo.
+                      </p>
+                      <div
+                        class="d-flex align-items-center justify-content-end"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-2 text-secondary fw-semibold"
+                        >
+                          <span>Xem thêm</span>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row g-3">
+                  <div class="col-12 col-md-5 col-lg-5">
+                    <img
+                      style="width: 100%; height: 100%; object-fit: cover"
+                      class="rounded-20"
+                      src="https://s3-alpha-sig.figma.com/img/5239/4956/bc6d7fb3d8346b97b6a02176a5374d29?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=nJvMYzUqSX3~sITAVhG0r-E9L5e0q1lbBQx-GuTZNpnC04xW~BF6HU87C5aBXSWRcpdL1gy0zYe4LsM-BHioVX0DAQ5y34G-B5WOBmv7XjIBU8yjLcvutvANnVRFYqiDyyD96Uoprka3BCnSMURorg7fi-ZzIF-Tx-LNV6oVdFs4YYIMlh3DtRNUBPCJvx66Rl6yMrCItjNeXqb5TPYjgWl3RSgLShIokPhnhkv4i1B7u4gh9J3Pny76HlvfH1WBkU2fi~QEm5kfbv0J2EIQ4GRKJhzgYHnY~AMh3Kqt-LZUSLMcf0cyl4amJf5eYcj0SqXxbPWRhEpf4bTe-kti-Q__"
+                    />
+                  </div>
+                  <div class="col-12 col-md-7 col-lg-7">
+                    <div class="d-grid gap-3 h-full">
+                      <h5 class="fs-18 text-primary fw-bolder">
+                        Người trẻ và Black Friday: Hào hứng "săn sale" hay ngày
+                        hội đã lỗi thời?
+                      </h5>
+                      <p style="line-height: 22px" class="fs-16 text-gray-sub">
+                        Với sự bùng nổ của thương mại điện tử, Black Friday liệu
+                        có còn sức hút đối với giới trẻ? Nhiều bạn trẻ tại TPHCM
+                        cho biết sẽ chi 5-10 triệu đồng cho ngày sale "sập sàn"
+                        này..
+                      </p>
+                      <div
+                        class="d-flex align-items-center justify-content-end"
+                      >
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-2 text-secondary fw-semibold"
+                        >
+                          <span>Xem thêm</span>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- thanh bên màn hình to -->
+          <section class="col-12 col-md-12 col-lg-5">
+            <div class="d-grid gap-5">
+              <section class="d-none d-lg-block">
+                <div
+                  class="d-flex justify-content-center align-items-center border border-1 p-2"
+                  style="
+                    background-color: var(--blue_main);
+                    border-radius: 20px 20px 0px 0px;
+                  "
+                >
+                  <h5 class="text-white text-center fw-bolder py-2">
+                    Chuyên mục
+                  </h5>
+                </div>
+                <div class="p-2 bg-light">
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <span class="text-primary py-2 fw-medium fs-18">
+                      <i class="fa-solid fa-caret-right text-primary me-2"></i>
+                      Tin tức về Thuận Phát
+                    </span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <span class="text-primary py-2 fw-medium fs-18">
+                      <i class="fa-solid fa-caret-right text-primary me-2"></i>
+                      Cẩm nang kiến thức
+                    </span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <span class="text-primary py-2 fw-medium fs-18">
+                      <i class="fa-solid fa-caret-right text-primary me-2"></i>
+                      Tin tuyển dụng
+                    </span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <span class="text-primary py-2 fw-medium fs-18">
+                      <i class="fa-solid fa-caret-right text-primary me-2"></i>
+                      Danh mục 04
+                    </span>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center py-2 px-3"
+                  >
+                    <span class="text-primary py-2 fw-medium fs-18">
+                      <i class="fa-solid fa-caret-right text-primary me-2"></i>
+                      Danh mục 05
+                    </span>
+                  </div>
+                </div>
+              </section>
+              <section class="d-none d-lg-grid gap-4">
+                <h5 class="fs-20 text-primary fw-bold">
+                  Bài viết xem nhiều nhất
+                </h5>
+                <div class="d-grid gap-3 h-full">
+                  <div class="row g-3">
+                    <div class="col-4">
+                      <div class="">
+                        <img
+                          class="rounded-20"
+                          src="https://s3-alpha-sig.figma.com/img/0f64/0b3b/dcfbcecfa8296fdb1bb7e43872efb066?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NfjmNZQnWLr5fztSrNcVzX6aWVto54~7YQgvRcYH2cnqN9bvSGLQVfN0BhLvURg9X7-6lEC-OuRDoTh9ZfJhXem~sUSYrWLdfMEFEGhZoSgHAO2SQU5hmuj-dCOvVTP1ExbY0i-0JtfwsMxtjQshw2XL-upgaNYmi~p5V2Fk~ci45qMKJdR43Qo6DCR3bn4kLnla8oDhGcdqai1zPevsm8tSvAJ9TNJcK4CVTu1LJgxwudTO0OMl0dfrvQP6CZfl-65JTW~JjKg8kVTRAcDzZYwdVQb1ijUsJYYwIeWvVQMX0E2dtikuF6~uR7nT8992Jx9vrduJkeUO~9DrW-5U7g__"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <h5 class="fs-18 text-primary blog__name">
+                        NSND Minh Châu tuổi U70: Chơi pickleball, là đại gia
+                        buôn đất
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-4">
+                      <div class="">
+                        <img
+                          class="rounded-3"
+                          src="https://s3-alpha-sig.figma.com/img/811f/510d/775a41f8e52d448d6ee5a26895ff5bfe?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=O177cHh4nmAcFBgFJg-mHGCZRCKg9~5vEzVVZjdFEmbUTF495S5pCpC86z~W5oTJSBLPFQsfmMRcJGucFidcvpNyQLyOvDE2ujcmkNXlMwHOGuzVY1hDJgD-S56FPofChXReKZLuY6KEVgo99fe460HxRH9RdccXpIzHnJj2lcGctCRJPnyXq0cEgkdGZW0uk4uDzEYgn84SAAuugI~WYIBsarqUnVL-sXLYDNmQ9A5Djp4MUo1pHP6-CFr00eMEbl-z4DLktxYlADuRIOnB1ws~iTQaBKQA0V9pNoPa-ExvX9ZUwldiWKwLJOciZJ1bDmTgMCTz2GDkeZ~zHPehZA__"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <h5 class="fs-18 text-primary blog__name">
+                        Đề xuất đánh thuế mua bán nhà đất theo thời gian nắm giữ
+                      </h5>
+                    </div>
+                  </div>
+                  <div class="row g-3">
+                    <div class="col-4">
+                      <div class="">
+                        <img
+                          class="rounded-3"
+                          src="https://s3-alpha-sig.figma.com/img/8c55/59f6/85590545142ed852822f808c836bc486?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=OLOF5yRsh8Ae1CVIKc5KyJuZJNVO6TgN8wZ~W3ujfYd-XvYRVq3bHaaruaoR0EMBZDx8CJiXjs99I2XY0sgHysvOqMXJzl8w18LdH9lMww0ZrCJreIGpUIrr1UCUjp7KYSuVdJhTto5n~FU3jGCRdBRtM4MbrU0Vc2NVfm7axRyIS0IWurnITXvN7NHx3Zvs1SoM8-ETtBMUxhgZ5T0aIhEwCkOct7lZc-VXGlk~ea8i86WKtJFj0huAe8Rtd5tDqB~01Xs-c9vbnHdcyAXHhb~edeQobdrSRn2um-ZyROTcIBjcmCiNn~Wy8e3JqJiBYK436Lv7f~E1u~LjgNxE~A__"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-8">
+                      <h5 class="fs-18 text-primary blog__name">
+                        Giới trẻ Hà Nội thức xuyên đêm lấy chỗ, chi gần 80 triệu
+                        đồng "săn" Labubu
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="d-none d-lg-block">
+                <div
+                  class="d-flex justify-content-center align-items-center border border-1 p-2"
+                  style="
+                    background-color: var(--blue_main);
+                    border-radius: 20px 20px 0px 0px;
+                  "
+                >
+                  <h5 class="text-white text-center fw-bolder py-2">
+                    Dịch vụ của Thuận Phát
+                  </h5>
+                </div>
+                <div class="bg-light p-2">
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <p class="text-primary py-2" style="font-weight: 500">
+                      Giấy phép quảng cáo
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <p class="text-primary py-2" style="font-weight: 500">
+                      Đăng ký chỉ định cơ sở kiểm nghiệm
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <p class="text-primary py-2" style="font-weight: 500">
+                      Đăng ký cấp giấy chứng nhận GMP
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom align-items-center py-2 px-3"
+                  >
+                    <p class="text-primary py-2" style="font-weight: 500">
+                      Giấy chứng nhận Y tế
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between align-items-center py-2 px-3"
+                  >
+                    <p class="text-primary py-2" style="font-weight: 500">
+                      Giấy chứng nhận xuất khẩu
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+        <!-- phân trang mobile -->
+        <section class="mt-lg-3">
+          <div class="d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center justify-content-start gap-2">
+              <button
+                style="width: 28px; height: 28px"
+                class="btn-primary fw-semibold border-0 rounded-3 text-white d-flex align-items-center justify-content-center"
+              >
+                1
+              </button>
+              <button
+                style="width: 28px; height: 28px"
+                class="bg-black-sub border-0 rounded-3 text-primary fw-semibold d-flex align-items-center justify-content-center"
+              >
+                2
+              </button>
+              <button
+                style="width: 28px; height: 28px"
+                class="bg-black-sub border-0 rounded-3 text-primary fw-semibold d-flex align-items-center justify-content-center"
+              >
+                3
+              </button>
+              <button
+                style="width: 28px; height: 28px"
+                class="bg-black-sub border-0 rounded-3 text-primary fw-semibold d-flex align-items-center justify-content-center"
+              >
+                <i class="fa-solid fa-chevron-right text-white"></i>
+              </button>
             </div>
           </div>
         </section>
-        <!-- bài viết xem nhiều nhất -->
-        <section class="d-grid gap-3">
-          <h5 class="fs-20 text-primary fw-bold">Bài viết xem nhiều nhất</h5>
+        <!-- bài viết xem nhiều nhất mobile -->
+        <section class="d-grid d-lg-none gap-4">
+          <h5 class="fs-24 text-primary fw-bold">Bài viết xem nhiều nhất</h5>
           <div class="d-grid gap-3">
             <div class="row g-3">
               <div class="col-4">
@@ -177,7 +516,7 @@
                 </div>
               </div>
               <div class="col-8">
-                <h5 class="fs-18 text-primary">
+                <h5 class="fs-18 text-primary blog__name">
                   NSND Minh Châu tuổi U70: Chơi pickleball, là đại gia buôn đất
                 </h5>
               </div>
@@ -192,7 +531,7 @@
                 </div>
               </div>
               <div class="col-8">
-                <h5 class="fs-18 text-primary">
+                <h5 class="fs-18 text-primary blog__name">
                   Đề xuất đánh thuế mua bán nhà đất theo thời gian nắm giữ
                 </h5>
               </div>
@@ -207,7 +546,7 @@
                 </div>
               </div>
               <div class="col-8">
-                <h5 class="fs-18 text-primary">
+                <h5 class="fs-18 text-primary blog__name">
                   Giới trẻ Hà Nội thức xuyên đêm lấy chỗ, chi gần 80 triệu đồng
                   "săn" Labubu
                 </h5>
@@ -215,102 +554,82 @@
             </div>
           </div>
         </section>
-        <section>
-          <div class="d-flex align-items-center justify-content-center">
-            <div class="d-flex align-items-center justify-content-start gap-2">
-              <button
-                style="width: 28px; height: 28px"
-                class="btn-primary fw-bolder border-0 rounded-3 text-white d-flex align-items-center justify-content-center"
-              >
-                1
-              </button>
-              <button
-                style="width: 28px; height: 28px"
-                class="bg-black-sub border-0 rounded-3 text-primary fw-bolder d-flex align-items-center justify-content-center"
-              >
-                2
-              </button>
-              <button
-                style="width: 28px; height: 28px"
-                class="bg-black-sub border-0 rounded-3 text-primary fw-bolder d-flex align-items-center justify-content-center"
-              >
-                3
-              </button>
-              <button
-                style="width: 28px; height: 28px"
-                class="bg-black-sub border-0 rounded-3 text-primary fw-bolder d-flex align-items-center justify-content-center"
-              >
-                <i class="fa-solid fa-chevron-right text-white"></i>
-              </button>
-            </div>
+
+        <!-- dịch vụ mobile -->
+        <section class="d-block d-lg-none">
+          <div
+            class="d-flex justify-content-center align-items-center border border-1 p-2"
+            style="
+              background-color: var(--blue_main);
+              border-radius: 20px 20px 0px 0px;
+            "
+          >
+            <h5 class="text-white text-center fw-bolder py-2">
+              Dịch vụ của Thuận Phát
+            </h5>
           </div>
-        </section>
-        <section>
-          <div class="">
-            <div
-              class="d-flex justify-content-center align-items-center border border-1 p-2"
-              style="
-                background-color: var(--blue_main);
-                border-radius: 20px 20px 0px 0px;
-              "
-            >
-              <h5 class="text-white text-center mb-0">
-                Dịch vụ của Thuận Phát
-              </h5>
-            </div>
-            <div
-              class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
-            >
-              <p class="text-primary">Giấy phép quảng cáo</p>
-              <a href=""
-                ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
-              /></a>
-            </div>
-            <div
-              class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
-            >
-              <p class="text-primary">Đăng ký chỉ định cơ sở kiểm nghiệm</p>
-              <a href=""
-                ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
-              /></a>
-            </div>
-            <div
-              class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
-            >
-              <p class="text-primary">Đăng ký cấp giấy chứng nhận GMP</p>
-              <a href=""
-                ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
-              /></a>
-            </div>
-            <div
-              class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
-            >
-              <p class="text-primary">Giấy chứng nhận Y tế</p>
-              <a href=""
-                ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
-              /></a>
-            </div>
-            <div
-              class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
-              style="border-radius: 0px 0px 20px 20px"
-            >
-              <p class="text-primary">Giấy chứng nhận xuất khẩu</p>
-              <a href=""
-                ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
-              /></a>
-            </div>
+          <div
+            class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
+          >
+            <p class="text-primary py-2" style="font-weight: 500">
+              Giấy phép quảng cáo
+            </p>
+            <a href=""
+              ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
+            /></a>
+          </div>
+          <div
+            class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
+          >
+            <p class="text-primary py-2" style="font-weight: 500">
+              Đăng ký chỉ định cơ sở kiểm nghiệm
+            </p>
+            <a href=""
+              ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
+            /></a>
+          </div>
+          <div
+            class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
+          >
+            <p class="text-primary py-2" style="font-weight: 500">
+              Đăng ký cấp giấy chứng nhận GMP
+            </p>
+            <a href=""
+              ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
+            /></a>
+          </div>
+          <div
+            class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
+          >
+            <p class="text-primary py-2" style="font-weight: 500">
+              Giấy chứng nhận Y tế
+            </p>
+            <a href=""
+              ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
+            /></a>
+          </div>
+          <div
+            class="d-flex justify-content-between border-bottom align-items-center bg-light py-2 px-3"
+            style="border-radius: 0px 0px 20px 20px"
+          >
+            <p class="text-primary py-2" style="font-weight: 500">
+              Giấy chứng nhận xuất khẩu
+            </p>
+            <a href=""
+              ><img src="/assets/icons/arrow.svg" alt="" style="height: 25px"
+            /></a>
           </div>
         </section>
       </div>
     </main>
 
     <footer id="footer" class="mt-5"></footer>
+    <script src="./index.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <script src="../index.js"></script>
   </body>
 </html>
