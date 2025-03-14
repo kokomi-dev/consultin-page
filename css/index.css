@@ -26,7 +26,7 @@
 }
 .information__img {
   width: 100%;
-  height: 300px;
+  height: auto;
   object-fit: cover;
 }
 .play_infomation {
@@ -46,7 +46,9 @@
   height: 55px;
   flex-shrink: 0;
 }
-
+.service__product__list > ul > li > span {
+  font-weight: 600;
+}
 @media screen and (max-width: 992px) {
   .banner__slogan {
     color: var(--white_main);

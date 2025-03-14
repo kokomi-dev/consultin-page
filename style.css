@@ -154,6 +154,7 @@ body {
 .h-full {
   height: 100%;
 }
+
 /* back ground */
 .bg-primary-2 {
   background: var(--bg-blue_sub);
@@ -185,6 +186,9 @@ body {
 }
 .fs-28 {
   font-size: 28px;
+}
+.fs-40 {
+  font-size: 40px;
 }
 .fs-44 {
   font-size: 44px;
@@ -237,12 +241,16 @@ body {
   width: 22px;
   height: 22px;
 }
+.icon__img__28 {
+  width: 28px;
+  height: 28px;
+}
 /* text */
 .text-primary {
   color: var(--blue_main) !important;
 }
 .text-secondary {
-  color: var(--blue_sub);
+  color: var(--blue_sub) !important;
 }
 .text-yellow {
   color: var(--yellow_main);
@@ -260,6 +268,13 @@ body {
 img {
   width: 100%;
   height: 100%;
+}
+/* font weigth */
+.fw-medium {
+  font-weight: 500;
+}
+.fw-semibold {
+  font-weight: 600;
 }
 @media screen and (min-width: 992px) {
   .nav__list {

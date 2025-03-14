@@ -1,0 +1,9 @@
+.item__icon {
+  border-color: var(--blue_main) !important;
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+.item__icon > i {
+  font-size: 18px;
+}

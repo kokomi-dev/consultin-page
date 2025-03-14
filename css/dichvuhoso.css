@@ -1,12 +1,11 @@
 .steps {
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 100%;
   background-position: center;
-  object-fit: cover;
+  object-fit: contain;
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: blur(4px); */
   z-index: 1;
   background-image: url("https://s3-alpha-sig.figma.com/img/f60b/0f7d/caee67a585e3acbb1084aec6d5babee2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=sw-klje~o-rdyJgtgRjMXTyD0iC2hnW7fx7PA9WwvexGMXQXJUihEGRBErFquHsQyJwq2NS9SEqp9IpII1z-OAyzdlGf6wd9tmlAencyKvso4wtI-ASweMKeSORRCaTuaDByFCQGPUeSzB64VTBdApnrdt9cGYuu0r7xVFz3JrUNmHyOX4wH4c3OsA12lQKFuuRXpb1nZpIZaRB3-3STgZC9MjGtfdcZEAMStgmk9qIblUPHLof6pgjpIsXEB7M3dewXciQSMlEvYjFqB36QNEkCCVn9qecXnBvS0uJl1oTLApmgTuh1sJdXFpDRL8avHR28zxPOZefsxIXhO3d5DA__");
 }
@@ -30,6 +29,9 @@
   width: 65px;
   height: 65px;
   flex-shrink: 0;
+}
+.service__product__list > ul > li > span {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 992px) {
