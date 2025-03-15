@@ -9,15 +9,19 @@
           alt="phone"
           class="icon__img__16"
         />
-        <span
+        <span class="fs-16"
           >Hotline:
-          <a href="tel:09123456789" class="text-white">09123 456 789</a></span
+          <a
+            href="tel:09123456789"
+            class="text-white fs-16 text-decoration-none"
+            >09123 456 789</a
+          ></span
         >
       </div>
       <span>|</span>
       <div class="header__top__item d-flex align-items-center gap-2">
         <img src="../assets/icons/time.png" alt="time" class="icon__img__16" />
-        <span>Giờ làm việc: T2 - T6 8:30 - 5:30</span>
+        <span class="fs-16">Giờ làm việc: T2 - T6 8:30 - 5:30</span>
       </div>
     </div>
   </div>
@@ -66,17 +70,56 @@
                   />
                 </a>
               </li>
-              <li>
-                <a href="../danhmuccamnagkienthuc.html"
+              <li
+                class="dropdown__header__item d-flex align-items-center justify-content-start gap-2 fw-semibold fs-16"
+              >
+                <a
+                  style="color: var(--blue_main)"
+                  href="../danhmuccamnagkienthuc.html"
+                  class="fw-semibold fs-16"
                   >Cẩm nang kiến thức
-                  <img
-                    class="icon__img__10"
-                    src="../assets//icons//arrow-down.png"
-                  />
                 </a>
+                <ul
+                  style="background-color: #2e3192; width: max-content"
+                  class="dropdown__menu rounded-3 bg-primary_main text-white px-4"
+                  aria-labelledby="dropdownMenu2"
+                >
+                  <li class="hover_div_1">
+                    <button
+                      style="font-weight: 600"
+                      class="text-white p-3 fw-semibold fs-16 bg-primary_main rounded-3"
+                      type="button"
+                    >
+                      Dịch vụ công bố sản phẩm
+                    </button>
+                    <ul class="hover_wraper_1 px-3">
+                      <li>Thực phẩm trong nước</li>
+                      <li>Thực phẩm nhập khẩu</li>
+                      <li>Thực phẩm chức năng</li>
+                      <li>Bao bì, dụng cụ sản phẩm</li>
+                    </ul>
+                  </li>
+                  <hr class="m-0 p-0" />
+                  <li class="hover_div_2">
+                    <button
+                      style="font-weight: 600"
+                      class="text-white p-3 fw-semibold fs-16 bg-primary_main text-white rounded-3"
+                      type="button"
+                    >
+                      Dịch vụ khác
+                    </button>
+                    <ul class="hover_wraper_2 px-3">
+                      <li>Dịch vụ ngoài</li>
+                      <li>Dịch vụ khác 1</li>
+                      <li>Dịch vụ tương ứng</li>
+                      <li>Dịch vụ cá nhân</li>
+                    </ul>
+                  </li>
+                </ul>
               </li>
+
               <li>
-                <a href="../vanbanphapluat.html">Văn bản pháp luật</a>
+                <a href="../handbook _articles.html">Văn bản pháp luật</a>
               </li>
               <li>
                 <a href="../tintuc.html">Tin tức</a>
@@ -88,9 +131,9 @@
             <!-- side bar mobile -->
             <button
               id="btn__menu"
-              class="btn__sidebar d-block d-xl-none p-2 rounded-3 px-3"
+              class="btn__sidebar d-block d-xl-none p-2 p-md-3 rounded-3 px-3"
             >
-              <i class="fa-solid fa-bars text-primary"></i>
+              <i class="fa-solid fa-bars text-primary fs-18"></i>
             </button>
           </div>
         </div>

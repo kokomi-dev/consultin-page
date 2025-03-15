@@ -76,6 +76,74 @@
   font-size: 16px;
   color: var(--blue_main) !important;
 }
+.dropdown__header__item {
+  position: relative;
+}
+.dropdown__menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.dropdown__header__item:hover .dropdown__menu {
+  display: block;
+  z-index: 99;
+}
+.dropdown__header > li:hover {
+  cursor: pointer;
+}
+.dropdown__header > ul > li > button {
+  font-size: 15px;
+}
+.dropdown__header > ul > li > button:hover {
+  background-color: transparent;
+}
+.hover_div_1,
+.hover_div_2 {
+  position: relative;
+}
+.hover_wraper_1 {
+  position: absolute;
+  right: -118%;
+  top: 0%;
+  width: 250px;
+  height: auto;
+  background-color: var(--bg-gray-sub);
+  display: none;
+  border-radius: 5px;
+}
+.hover_wraper_2 {
+  position: absolute;
+  right: -118%;
+  top: 0%;
+  width: 250px;
+  height: auto;
+  background-color: var(--bg-gray-sub);
+  display: none;
+  border-radius: 5px;
+}
+.hover_wraper_1 > li,
+.hover_wraper_2 > li {
+  color: var(--blue_sub);
+  font-size: 16px;
+  font-weight: 500px;
+  padding: 14px 0px;
+  border-bottom: 0.5px solid #757575;
+}
+.hover_wraper_1,
+.hover_wraper_2:hover {
+  opacity: 90;
+}
+.hover_wraper_1 > li:nth-child(4),
+.hover_wraper_2 > li:nth-child(4) {
+  border-bottom: 0;
+}
+.hover_div_1:hover .hover_wraper_1 {
+  display: block;
+}
+.hover_div_2:hover .hover_wraper_2 {
+  display: block;
+}
 @keyframes fadein {
   from {
     right: -100%;
