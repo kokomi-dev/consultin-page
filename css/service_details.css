@@ -1,3 +1,9 @@
+:root {
+    --blue_main: #2e3192;
+}
+.text-primary {
+    color: var(--blue_main) !important;
+}
 #icon_arrow,#icon_email{
     transition: color 0.3s ease;
     filter: brightness(0) invert(1);
