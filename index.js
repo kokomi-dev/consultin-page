@@ -5,7 +5,6 @@ Promise.all([
 ]).then(([headerData, footerData, formData]) => {
   document.getElementById("header").innerHTML = headerData;
   document.getElementById("footer").innerHTML = footerData;
-  document.getElementById("form").innerHTML = formData;
 
   const btnMenu = document.getElementById("btn__menu");
   const btnClose = document.getElementById("btn__close");
@@ -18,6 +17,7 @@ Promise.all([
   btnClose?.addEventListener("click", () => {
     sideBar.classList.remove("active");
   });
+  document.getElementById("form").innerHTML = formData;
 });
 const slider = document.querySelector(".slider");
 const nextBtn = document.querySelector(".btn-next");

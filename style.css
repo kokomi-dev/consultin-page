@@ -285,12 +285,16 @@ img {
   line-height: 28px;
   font-weight: 700;
 }
+/* gap */
+.gap3_5 {
+  gap: 1.2rem;
+}
 @media screen and (max-width: 768px) {
   .header__top__list {
     display: none;
   }
   .title-28 {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
   }
 }
 
