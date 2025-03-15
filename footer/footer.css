@@ -1,7 +1,8 @@
 /* footer-top */
+
 .footer_top {
   width: 100%;
-  background-color: var( --blue_main);
+  background-color: var(--blue_main);
   color: white !important;
 }
 ul li {
@@ -13,24 +14,38 @@ ul {
   padding-left: 0 !important;
 }
 ul li a {
-  text-decoration: none; 
-  color: inherit; 
-  display: block; 
-  padding: 5px 0px; 
-}   
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: 300;
+}
 #logo {
   filter: invert(1);
   transition: filter 0.3s ease-in-out;
 }
-#logo, #icon_map, #icon_home, #icon_phone, #icon_email, #icon_facebook, #icon_youtube, #icon_tiktok, #icon_instagram {
+#logo,
+#icon_map,
+#icon_home,
+#icon_phone,
+#icon_email,
+#icon_facebook,
+#icon_youtube,
+#icon_tiktok,
+#icon_instagram {
   font-size: 20px;
   transition: color 0.3s ease;
-  filter: brightness(0) invert(1); /* Đổi màu icon thành trắng */
+  filter: brightness(0) invert(1);
+  fill: aqua;
+  color: aquamarine;
 }
 /* footer-end */
 .footer_end {
   width: 100%;
-  background-color: var( --bg-blue_sub);
+  background-color: var(--bg-blue_sub);
   color: white !important;
+  padding: 12px 0px;
+  font-size: 16px;
+  font-weight: 300;
 }
-
