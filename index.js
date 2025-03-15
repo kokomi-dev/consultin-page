@@ -19,3 +19,20 @@ Promise.all([
     sideBar.classList.remove("active");
   });
 });
+const slider = document.querySelector(".slider");
+const nextBtn = document.querySelector(".btn-next");
+const prevBtn = document.querySelector(".btn-prev");
+const slideWidth = document.querySelector(".slide").offsetWidth + 8;
+
+let currentPosition = 0;
+
+nextBtn.addEventListener("click", () => {
+  const maxScroll = slider.scrollWidth - slider.clientWidth;
+  currentPosition = Math.min(currentPosition + slideWidth, maxScroll);
+  slider.style.transform = `translateX(-${currentPosition}px)`;
+});
+
+prevBtn.addEventListener("click", () => {
+  currentPosition = Math.max(currentPosition - slideWidth, 0);
+  slider.style.transform = `translateX(-${currentPosition}px)`;
+});
