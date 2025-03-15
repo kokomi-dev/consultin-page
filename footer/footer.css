@@ -19,7 +19,6 @@ ul li a {
   display: block;
   padding: 5px 0px;
   font-size: 18px;
-  font-weight: 300;
 }
 #logo {
   filter: invert(1);

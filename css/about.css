@@ -1,3 +1,6 @@
+:root {
+    --blue_main: #2e3192;
+}
 #icon_check {
     transition: color 0.3s ease;
     filter: brightness(0) invert(1);
@@ -6,5 +9,8 @@
     outline: none !important;
     box-shadow: none !important;
     border-color: transparent !important; 
+}
+.text-primary {
+    color: var(--blue_main) !important;
 }
 

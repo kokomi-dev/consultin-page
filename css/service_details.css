@@ -1,3 +1,9 @@
+:root {
+    --blue_main: #2e3192;
+}
+.text-primary {
+    color: var(--blue_main) !important;
+}
 #icon_arrow,#icon_email{
     transition: color 0.3s ease;
     filter: brightness(0) invert(1);
@@ -6,4 +12,19 @@
     outline: none !important;
     box-shadow: none !important;
     border-color: transparent !important; 
+}
+
+.carousel-indicators button {
+    width: 15px !important;  /* Độ rộng */
+    height: 15px !important; /* Độ cao */
+    border-radius: 50%; /* Làm tròn */
+    background-color: white; /* Màu nền */
+    border: 2px solid #000; /* Viền */
+    opacity: 0.5; /* Độ trong suốt */
+    border: 1px solid black !important;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(143, 41, 206); /* Màu của button đang active */
+    opacity: 1; /* Hiển thị rõ hơn */
 }
