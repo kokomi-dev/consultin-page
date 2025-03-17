@@ -13,7 +13,43 @@
     box-shadow: none !important;
     border-color: transparent !important; 
 }
-
+#img_header{
+    max-height: 350px; 
+    width: 100%; 
+    object-fit: cover; 
+    margin: 0;
+}
+/* cot ben phai */
+.table_question div:first-child{
+    background-color:var(--blue_main); 
+    border-radius: 20px 20px 0px 0px;
+}
+.table_question div:last-child{
+    border-radius: 0px 0px 20px 20px;
+}
+.carousel-item div {
+    border-radius: 20px;
+}
+#icon_vector{
+    height: 70px;
+    width:70px;
+}
+#icon_group_star img{
+    height: 20px;
+    width: 150px;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+#client {
+    border-radius: 0px 0px 20px 20px;
+}
+#client img {
+    height:70px; 
+    width:70px; 
+    border-radius: 50px; 
+    object-fit: cover;
+}
 .carousel-indicators button {
     width: 15px !important;  /* Độ rộng */
     height: 15px !important; /* Độ cao */
@@ -23,8 +59,74 @@
     opacity: 0.5; /* Độ trong suốt */
     border: 1px solid black !important;
 }
-
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    border-radius: 20px;
+}
 .carousel-indicators .active {
     background-color: rgb(143, 41, 206); /* Màu của button đang active */
     opacity: 1; /* Hiển thị rõ hơn */
+}
+.table_service div:first-child {
+    background-color:var(--blue_main);
+    border-radius: 20px 20px 0px 0px;
+}
+.table_service div:last-child{
+    border-radius: 0px 0px 20px 20px;
+}
+/* cot ben trai */
+#content_3 {
+    border-radius: 20px;
+    background-color:rgb(222, 222, 239);
+    color: var(--blue_sub);
+}
+#icon_check {
+    height: 25px;
+}
+#button {
+    background-color: var(--blue_sub);
+}
+#row_table_menu {
+    border-radius: 20px 20px 0px 0px;
+    background-color: var(--blue_sub);
+    color: white;
+}
+#sign_up {
+    border-radius: 20px;
+    background-color:rgb(222, 222, 239); 
+    color: var(--blue_sub);
+}
+#sign_up div {
+    background-color: var(--blue_sub);
+}
+
+/* section_center */
+.card {
+    max-width:35rem;
+}
+#icon_vector_2{
+    height: 30px; 
+    width: 30px;
+}
+.form_signup div {
+    background-color: var(--yellow_main);
+    border-radius: 15px;
+}
+.form_signup div div img {
+    height: 30px;
+    width: 30px;
+}
+.form_signup div  button{
+    background-color: var(--blue_sub);
+}
+
+@media screen and (max-width: 576px) { 
+    h1,h2,h3{
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5{
+        font-size: 16px !important;
+    }
 }
