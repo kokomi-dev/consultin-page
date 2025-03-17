@@ -1,28 +1,13 @@
-.banner {
+/* banner */
+.banner__img {
+  max-height: 440px;
   width: 100%;
-  height: auto;
-  background-image: url("");
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: relative;
+  object-fit: cover;
+  margin: 0;
 }
-.banner__slogan {
-  position: absolute;
-  color: var(--white_main);
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.banner__slogan > h1 {
-  font-size: 54px;
-  font-weight: 700;
-}
-.banner__slogan > button {
-  color: var(--black-main);
-  border-radius: 24px;
-  max-width: 243px;
-  background-color: var(--bg-white);
+.banner__btn {
+  background-color: transparent;
+  border-color: white;
 }
 .information__img {
   width: 100%;
@@ -40,6 +25,12 @@
   justify-content: center;
   border-radius: 180px;
   background-color: #999;
+}
+/* dịch vụ công bố */
+.service__product__img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 .items__number {
   width: 55px;
