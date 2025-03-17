@@ -4,3 +4,61 @@
 .text-primary {
     color: var(--blue_main) !important;
 }
+#img_header{
+    max-height: 250px; 
+    width: 100%; 
+    object-fit: cover;
+    margin: 0;
+}
+
+/* cot ben trai */
+#card div:first-child {
+    height:90px;
+    background-color: var(--blue_main);
+    border-radius: 20px 20px 0 0;
+}
+#card div:first-child img  {
+    height: 100px; 
+    width: 100px; 
+    border-radius: 150px; 
+    object-fit: cover;
+}
+#card div:last-child {
+    background-color: var(--blue_main);
+    border-radius: 0 0 20px 20px;
+}
+#card div:last-child a img {
+    height: 30px;
+    width: 30px;
+}
+/* cot ben phai */
+.content_3 img {
+    max-height:590px; 
+    object-fit: cover;
+}
+.content_4 img {
+    max-height:670px;
+    width: 100%; 
+    object-fit: cover;
+}
+
+/* section_center */
+.card {
+    max-width:35rem;
+}
+#icon_vector_2{
+    height: 30px; 
+    width: 30px;
+}
+
+@media screen and (max-width: 576px) { 
+    h1,h2,h3{
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5{
+        font-size: 16px !important;
+    }
+}

@@ -4,3 +4,61 @@
 .text-primary {
     color: var(--blue_main) !important;
 }
+#img_header {
+    max-height: 350px; 
+    width: 100%; 
+    object-fit: cover; 
+    margin: 0;
+}
+/* cot ben trai */
+.content_1 img {
+    max-height:585px;
+    object-fit:cover;
+}
+.content_2 img {
+    max-height: 783px;
+    object-fit:cover;
+}
+
+/* cot ben phai */
+.table_question div:first-child{
+    background-color:var(--blue_main); 
+    border-radius: 20px 20px 0px 0px;
+}
+.table_question div:last-child {
+    border-radius: 0px 0px 20px 20px;
+}
+#img_section {
+    height: 80px; 
+    width: 80px; 
+    border-radius: 15px; 
+    object-fit: cover;
+}
+.table_service div:first-child{
+    background-color:var(--blue_main); 
+    border-radius: 20px 20px 0px 0px;
+}
+.table_service div:last-child{
+    border-radius: 0px 0px 20px 20px;
+}
+
+/* section_center */
+.card {
+    max-width:35rem;
+}
+#icon_vector_2{
+    height: 30px; 
+    width: 30px;
+}
+
+@media screen and (max-width: 576px) { 
+    h1,h2,h3{
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5{
+        font-size: 16px !important;
+    }
+}

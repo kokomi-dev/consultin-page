@@ -38,7 +38,7 @@
     <!-- img_section -->
     <section class="img_section position-relative">
           <div class="col-12 position-relative">
-            <img src="/assets/img/about_1.png"alt="About Image" class="img-fluid rounded shadow" style="max-height: 250px; width: 100%; object-fit: cover; margin: 0;"/>
+            <img src="/assets/img/about_1.png"alt="handbook Image" class="img-fluid rounded shadow" id="img_header">
             <div class="position-absolute top-50 start-50 translate-middle text-white p-3 rounded">
                 <h2 class="text-center fw-bold">Cẩm nang kiến thức</h2>
             </div>
@@ -51,10 +51,10 @@
 
             <!-- cot ben trai -->
             <div class="col-lg-3 col-md-5 ">
-                <div class="mb-3">
-                    <div class="position-relative text-center text-white p-2" style="height:90px;background-color: var(--blue_main); border-radius: 20px 20px 0 0;">
+                <div class="mb-3" id="card">
+                    <div class="position-relative text-center text-white p-2">
                        <h5>Thông tin về Tác giả</h5>
-                        <img src="https://s3-alpha-sig.figma.com/img/a5bc/27e2/38474c3a8026069d17b3fde301968dd3?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pbF68o3WnIQ-4sCqhxd0C49cULg7Xr52z-O~9AESs7kld-ncNIS6mufhLvMpfE58sbxyL-nZyfnnfnHaw0HU~5LXJI5sFieLsC~AQ6soOkLGj5JCfbXVrHZhAQ~MXKoZ6Gklwz2PidEyAUBDuvHpB~HLPX-6AXFXCJcxCKBc0kooKfoDDRPP8cjdyVEMo0qMISKm3Mv1k~4Rm5P88YAqWgqe~Ll1BSGKXsOsXb9q3sG7Sv602x9qzmSeMciFjWig1Q85PJ8jGREWn1WDED~sB4zDkOge93lt~bfc0VvwfPQ0I8M~-Rfpn4MPUnyztYwBKgM8CIYrtFkgPXn7Tz12oQ__" alt="" class="img-fluid position-absolute top-100 start-50 translate-middle" style="height: 100px; width: 100px; border-radius: 150px; object-fit: cover;">
+                        <img src="https://s3-alpha-sig.figma.com/img/a5bc/27e2/38474c3a8026069d17b3fde301968dd3?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pbF68o3WnIQ-4sCqhxd0C49cULg7Xr52z-O~9AESs7kld-ncNIS6mufhLvMpfE58sbxyL-nZyfnnfnHaw0HU~5LXJI5sFieLsC~AQ6soOkLGj5JCfbXVrHZhAQ~MXKoZ6Gklwz2PidEyAUBDuvHpB~HLPX-6AXFXCJcxCKBc0kooKfoDDRPP8cjdyVEMo0qMISKm3Mv1k~4Rm5P88YAqWgqe~Ll1BSGKXsOsXb9q3sG7Sv602x9qzmSeMciFjWig1Q85PJ8jGREWn1WDED~sB4zDkOge93lt~bfc0VvwfPQ0I8M~-Rfpn4MPUnyztYwBKgM8CIYrtFkgPXn7Tz12oQ__" alt="" class="img-fluid position-absolute top-100 start-50 translate-middle">
                     </div>
                     <div class="mt-5 p-2 text-center">
                         <p>PGS.TS Nguyễn Thị Vân Anh</p>
@@ -65,11 +65,11 @@
                             đoàn lớn như: Viettel, Vinaphone, FPT...
                         </p>
                     </div>
-                    <div class="d-flex justify-content-around p-3" style="background-color: var(--blue_main);border-radius: 0 0 20px 20px;">
-                        <a href=""><img src="/assets/icons/facebook.svg" alt="" style="height: 30px; width: 30px;" id="icon_facebook"></a>
-                        <a href=""><img src="/assets/icons/youtube.svg" alt="" style="height: 30px; width: 30px;" id="icon_youtube"></a>
-                        <a href=""><img src="/assets/icons/tiktok.svg" alt="" style="height: 30px; width: 30px;" id="icon_tiktok"></a>
-                        <a href=""><img src="/assets/icons/instagram.svg" alt="" style="height: 30px; width: 30px;" id="icon_instagram"></a>
+                    <div class="d-flex justify-content-around p-3">
+                        <a href=""><img src="/assets/icons/facebook.svg" alt="" id="icon_facebook"></a>
+                        <a href=""><img src="/assets/icons/youtube.svg" alt="" id="icon_youtube"></a>
+                        <a href=""><img src="/assets/icons/tiktok.svg" alt="" id="icon_tiktok"></a>
+                        <a href=""><img src="/assets/icons/instagram.svg" alt="" id="icon_instagram"></a>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                 </div>
 
                 <!-- content_3 -->
-                <div class="mt-3">
+                <div class="content_3 mt-3">
                     <strong class="text-primary">*Tự công bố sản phẩm</strong>
                     <p>Nếu cơ sở của bạn sản xuất kinh doanh các sản phẩm thuộc danh mục  sau:Thực phẩm đã qua chế biến bao gói sẵn, phụ gia thực phẩm, dụng cụ  chứa đựng thực phẩm, chất hỗ trợ chế biến thực phẩm, vật liệu bao gói  tiếp xúc trực tiếp với thực phẩm thì phải thực hiện tự công bố sản phẩm trước khi đưa sản phẩm ra thị trường.</p>
 
@@ -103,11 +103,11 @@
                         3.  Phụ gia thực phẩm hỗn hợp có công dụng mới, phụ gia thực phẩm không thuộc  trong danh mục phụ gia được phép sử dụng trong thực phẩm  hoặc không  đúng đối tượng sử dụng do Bộ Y tế quy định.<br>
                         Lưu ý: Theo Nghị Định Số 15/2018/NĐ-CP, trường hợp sản phẩm nhập khẩu là thực  phẩm bảo vệ sức khỏe thì từ ngày 01/07/2019 khi đăng ký công bố sản phẩm bắt buộc phải có Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm  đạt yêu cầu Thực hành sản xuất tốt (GMP) hoặc chứng nhận tương đương.
                     </p>
-                    <img class = "mt-3" src="https://s3-alpha-sig.figma.com/img/f6de/34f1/56e035ee3e595abb483d5fd09aa45d04?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dWBrklXcIX4ChVDWRCVTa1xqUHOSqNWwoW0UK~FmpJ9ipEXBQO5NEjUwdDgvK2grFf163FikW~NIC8N4jhXzhOuFmBhluENBB3fB3b0ujcOOkZ2FW8wLoXsMhj6nxpbFzKJO-rn0Nk1xGgS~Zxr8uKXyiiYglwp-o-MFi37pOWqJcN0hpxIfHr8k7UecIfNncyIutEAQeOEy~30rgQ8uRURVcunh~n-aWO0qkQbQlkkS66M02vzZhETXQAeGMn3zMKWam174-esNYju9Z9-30e8rsdgTNYIBoIYifeL2r-2g1j336PKAF15xF7k2TDwQxN6g6n0xk9bm1vOmU2HqRA__" alt="" class="img-fluid" style = "max-height:590px; object-fit: cover;">
+                    <img class = "mt-3" src="https://s3-alpha-sig.figma.com/img/f6de/34f1/56e035ee3e595abb483d5fd09aa45d04?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dWBrklXcIX4ChVDWRCVTa1xqUHOSqNWwoW0UK~FmpJ9ipEXBQO5NEjUwdDgvK2grFf163FikW~NIC8N4jhXzhOuFmBhluENBB3fB3b0ujcOOkZ2FW8wLoXsMhj6nxpbFzKJO-rn0Nk1xGgS~Zxr8uKXyiiYglwp-o-MFi37pOWqJcN0hpxIfHr8k7UecIfNncyIutEAQeOEy~30rgQ8uRURVcunh~n-aWO0qkQbQlkkS66M02vzZhETXQAeGMn3zMKWam174-esNYju9Z9-30e8rsdgTNYIBoIYifeL2r-2g1j336PKAF15xF7k2TDwQxN6g6n0xk9bm1vOmU2HqRA__" alt="" class="img-fluid">
                 </div>
 
                 <!-- content _4 -->
-                <div class="mt-5">
+                <div class="content_4 mt-5">
                     <h2 class="text-primary">06 lưu ý cần nắm khi xin giấy công bố sản phẩm </h2>
                     <p>Trong quá trình thực hiện đăng ký giấy công bố sản phẩm có một số lỗi doanh nghiệp thường mắc phải dẫn đến hồ sơ không được tiếp nhận. Sau  đây là 06 lưu ý mà doanh nghiệp cần phải nắm:<br>
                         + Thành phần hồ sơ tự công bố hoặc đăng ký bản tiếp nhận công bố phải được soạn thảo bằng tiếng việt ( có dấu). Không sử dụng tiếng nước ngoài để soạn  thảo hồ sơ.<br>
@@ -117,7 +117,7 @@
                         + Khi tiến hành tự công bố sản phẩm, đồng nghĩa với việc doanh nghiệp phải tự chịu trách nhiệm với những gì mình công bố. Do đó, các thông tin công  bố cần phải chính xác.<br>
                         + Để tránh mất thời gian, doanh nghiệp cần xác định đúng cơ quan thẩm quyền tiếp nhận hồ sơ đăng ký công bố sản phẩm.
                     </p>
-                    <img class = "mt-3" src="https://s3-alpha-sig.figma.com/img/b673/aa0c/a57d7ca984b83578cb2ecb3acfd46e22?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=akJin4wwyrhWqp4bbASHqM~XZ-TldqcG0ia-ifQjci0HJyyAAB3nGpHH-LfZi33T0Jb65b3D-2SRgPv2X9zmLwyiHuYlzXMJl5P5pu04RS1e5qw4snK179frxjeUbdIGmJeplwdZfbExLMOP~IBS6lwdFqA1V8VXOy5Yaq8G3yXRiuXF1aqlBdnTTrdCVo-K4C4-7r1A7~C2Ca~0XBqTnd91~RvYvbHCQ8g6Hu9PyzJHUAlHrLgf7ixPG4ALN4ZQEZN2znvrOXFgDd3j7iyaEFyIJXFxAlUHRQ2fDsGWvSF9HrUN-AzCJic9qx2gLpHI-0QRhsl7YUrsZdIfJbZXmA__" alt="" class="img-fluid" style = "max-height:670px;width: 100%; object-fit: cover;">
+                    <img class = "mt-3" src="https://s3-alpha-sig.figma.com/img/b673/aa0c/a57d7ca984b83578cb2ecb3acfd46e22?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=akJin4wwyrhWqp4bbASHqM~XZ-TldqcG0ia-ifQjci0HJyyAAB3nGpHH-LfZi33T0Jb65b3D-2SRgPv2X9zmLwyiHuYlzXMJl5P5pu04RS1e5qw4snK179frxjeUbdIGmJeplwdZfbExLMOP~IBS6lwdFqA1V8VXOy5Yaq8G3yXRiuXF1aqlBdnTTrdCVo-K4C4-7r1A7~C2Ca~0XBqTnd91~RvYvbHCQ8g6Hu9PyzJHUAlHrLgf7ixPG4ALN4ZQEZN2znvrOXFgDd3j7iyaEFyIJXFxAlUHRQ2fDsGWvSF9HrUN-AzCJic9qx2gLpHI-0QRhsl7YUrsZdIfJbZXmA__" alt="" class="img-fluid">
                 </div>
 
                 <!-- content_5 -->
@@ -160,7 +160,7 @@
         <div class="row gy-4 mt-2">
 
             <div class="col-12 col-sm-6 col-lg-3 px-sm-3 ">
-                <div class="card" style="max-width:35rem;">
+                <div class="card">
                     <img src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng</h5>
@@ -170,13 +170,13 @@
                 <div class="mt-3 float-end ">
                     <a href="#" class="d-flex text-decoration-none">
                         <p>Xem thêm</p>
-                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" style="height: 30px; width: 30px;">
+                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" id="icon_vector_2">
                     </a>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 px-sm-3 ">
-                <div class="card" style="max-width:35rem;">
+                <div class="card">
                     <img src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng</h5>
@@ -186,13 +186,13 @@
                 <div class="mt-3 float-end ">
                     <a href="#" class="d-flex text-decoration-none">
                         <p>Xem thêm</p>
-                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" style="height: 30px; width: 30px;">
+                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" id="icon_vector_2">
                     </a>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 px-sm-3 ">
-                <div class="card" style="max-width:35rem;">
+                <div class="card">
                     <img src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng</h5>
@@ -202,13 +202,13 @@
                 <div class="mt-3 float-end ">
                     <a href="#" class="d-flex text-decoration-none">
                         <p>Xem thêm</p>
-                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" style="height: 30px; width: 30px;">
+                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" id="icon_vector_2">
                     </a>
                 </div>
             </div>
 
             <div class="col-12 col-sm-6 col-lg-3 px-sm-3 ">
-                <div class="card" style="max-width:35rem;">
+                <div class="card">
                     <img src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-primary">Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng</h5>
@@ -218,7 +218,7 @@
                 <div class="mt-3 float-end ">
                     <a href="#" class="d-flex text-decoration-none">
                         <p>Xem thêm</p>
-                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" style="height: 30px; width: 30px;">
+                        <img src="/assets/icons/Vector -2.svg" alt="" class="ms-3" id="icon_vector_2">
                     </a>
                 </div>
             </div>
