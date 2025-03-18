@@ -113,6 +113,26 @@
   display: none;
   border-radius: 5px;
 }
+.hover_div_1::before {
+  position: absolute;
+  content: " ";
+  top: 0px;
+  right: -50px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  z-index: 3;
+}
+.hover_div_2::before {
+  position: absolute;
+  content: " ";
+  top: 0px;
+  right: -50px;
+  width: 50px;
+  height: 150px;
+  background-color: transparent;
+  z-index: 3;
+}
 .hover_wraper_2 {
   position: absolute;
   right: -118%;
@@ -194,5 +214,21 @@
   .logo__img {
     width: 120px;
     margin-top: 12px;
+  }
+}
+
+@media (min-width: 576px) {
+  .sidebar__mobile.active {
+    width: 75%;
+  }
+}
+@media (min-width: 768px) {
+  .sidebar__mobile.active {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .sidebar__mobile.active {
+    width: 50%;
   }
 }

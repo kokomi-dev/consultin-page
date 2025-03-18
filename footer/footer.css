@@ -38,6 +38,14 @@ ul li a {
   fill: aqua;
   color: aquamarine;
 }
+
+#icon_instagram,
+#icon_facebook,
+#icon_youtube,
+#icon_tiktok {
+  height: 25px;
+  width: 25px;
+}
 /* footer-end */
 .footer_end {
   width: 100%;
