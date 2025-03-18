@@ -4,6 +4,10 @@
 .text-primary {
     color: var(--blue_main) !important;
 }
+.container-sm {
+    max-width: 1000px;
+}
+
 #icon_arrow,#icon_email{
     transition: color 0.3s ease;
     filter: brightness(0) invert(1);
@@ -20,6 +24,9 @@
     margin: 0;
 }
 /* cot ben phai */
+.bg-table {
+    background: #F2F2F2;
+}
 .table_question div:first-child{
     background-color:var(--blue_main); 
     border-radius: 20px 20px 0px 0px;
@@ -76,27 +83,33 @@
 /* cot ben trai */
 #content_3 {
     border-radius: 20px;
-    background-color:rgb(222, 222, 239);
+    background: #005CB933;
     color: var(--blue_sub);
 }
 #icon_check {
     height: 25px;
 }
-#button {
+#button, #button_2 {
     background-color: var(--blue_sub);
+    border-radius: 15px;
 }
 #row_table_menu {
     border-radius: 20px 20px 0px 0px;
     background-color: var(--blue_sub);
     color: white;
 }
+#row_table_menu_1 {
+    border-radius: 20px 20px 0px 0px;
+    background: #005CB933;
+    color: var(--blue_main) !important; 
+}
+.bg-columns {
+    background: #F4F4F4;
+}
 #sign_up {
     border-radius: 20px;
     background-color:rgb(222, 222, 239); 
     color: var(--blue_sub);
-}
-#sign_up div {
-    background-color: var(--blue_sub);
 }
 
 /* section_center */
@@ -131,7 +144,7 @@
     }
     .section_all p, 
     .section_gird p, 
-    .section_form p {
+    .form_signup p {
         font-size: 12px !important;
     }
     #icon_vector_2 {
