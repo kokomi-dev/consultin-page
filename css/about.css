@@ -1,6 +1,12 @@
 :root {
     --blue_main: #2e3192;
 }
+.container-sm {
+    max-width: 1000px;
+}
+.bg-table {
+    background: #F2F2F2;
+}
 #icon_check {
     transition: color 0.3s ease;
     filter: brightness(0) invert(1);
@@ -21,6 +27,7 @@
 }
 .text {
     border-radius: 20px;
+    background: #F2F2F2;
 }
 .img_about_2 {
     max-height: 350px;
