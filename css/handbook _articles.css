@@ -1,6 +1,9 @@
 :root {
     --blue_main: #2e3192;
 }
+.container-sm {
+    max-width: 1200px;
+}
 .text-primary {
     color: var(--blue_main) !important;
 }
@@ -28,8 +31,9 @@
     border-radius: 0 0 20px 20px;
 }
 #card div:last-child a img {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
+    margin:0 10px;
 }
 /* cot ben phai */
 .content_3 img {
