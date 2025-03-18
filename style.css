@@ -429,7 +429,7 @@ img {
   top: 35% !important;
 }
 .img__section__1 {
-  height: 500px;
+  height: 450px;
 }
 .img__section__2 {
   height: 220px;
@@ -479,7 +479,10 @@ img {
     width: 45px;
   }
   .img__section__1 {
-    height: 260px;
+    height: 240px;
+  }
+  .fs-18 {
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -490,7 +493,7 @@ img {
     height: 35px;
   }
   .title-28 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 6px;
   }
   .font__size__banner {
@@ -504,7 +507,7 @@ img {
     font-size: 18px;
   }
   .fs-24 {
-    font-size: 20px;
+    font-size: 19px;
   }
   .fs-14 {
     font-size: 14px;
@@ -519,12 +522,15 @@ img {
     gap: 1.4rem !important;
   }
   .img__section__1 {
-    height: 200px;
+    height: 180px;
   }
   .img__section__2 {
-    height: 120px;
+    height: 100px;
   }
   .line-h-38 {
     line-height: 30px;
+  }
+  .service__other__item {
+    font-size: 14px !important;
   }
 }

@@ -1,0 +1,7 @@
+.btn__close__modal {
+  top: 14px;
+  right: 18px;
+}
+.btn__close__modal:hover {
+  cursor: pointer;
+}
