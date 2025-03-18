@@ -46,15 +46,30 @@
       </section>
       <!-- giới thiệu -->
       <section class="d-grid gap-2 gap-md-3 gap-lg-4">
-        <div class="container">
+        <div class="container__small">
           <div class="row">
+            <div class="col-12 col-lg-6">
+              <div
+                class="position-relative h-full img_dich_vu d-none d-lg-block"
+              >
+                <div class="z-3 position-absolute">
+                  <img
+                    class="w-full h-full obf-contain"
+                    src="https://s3-alpha-sig.figma.com/img/6cdc/7b39/f1f351b72c19a538d4747ad7161e3cfb?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=RUeN50Qe71-kwi9CNnJu2zj0cbx3vZLGGEzUBU198gdntbXmK7SuUrYnjIBFxhCT0kIxf2FhP4OU8d9ap-gXxXyK4Azhj2OzU7LM3Qkx3XT~ZiSUzpxrqwcX7ZirVa5U36TmB~zSGMepDHlInHq04~dwkZbXSjro6UDcve7JS-GxdhrcSgW2yPc4qWH96X7hvTHHkiPGP741ck9b2HBEt3Y0qljQ--OhYMpgYoe9lQeG7rmFaPMHaDy6xOh5Io5XUAhKNci93XJxhjGU4IpNVbmHDFzXnPl1e-uAK4HLICXRT8E6x6Bxg6sBvgE7bjYo7fGIKVsmMcOlDNqP88MWFg__"
+                  />
+                </div>
+                <div
+                  class="img_dich_vu_ab bg-primary-2 rounded-circle position-absolute"
+                ></div>
+              </div>
+            </div>
             <div class="col-12 col-lg-6">
               <div class="d-grid gap-3">
                 <h3 class="text-primary fw-bolder fs-28 line-h-38 spacing-4">
                   Bạn có đang gặp phải những vấn đề khi tự mình làm thủ tục hồ
                   sơ?
                 </h3>
-                <p class="fs-18 line-h-20 spacing-3 fw-normal">
+                <p class="line-h-20 spacing-3 fw-normal">
                   Trải qua rất nhiều khâu, phải cung cấp nhiều loại giấy tờ, các
                   văn bản quy định phải mất nhiều thời gian để nghiên cứu cùng
                   với công sức đi lại?
@@ -67,7 +82,9 @@
                       src="./assets/icons/arrow-right-blue.svg"
                       class="icon__img__16"
                     />
-                    <span class="fw-medium fs-18">Nhiều loại giấy tờ</span>
+                    <span class="fw-medium fs-16 text-gray-main"
+                      >Nhiều loại giấy tờ</span
+                    >
                   </li>
                   <li
                     class="d-flex align-items-center justify-content-start gap-3 bg-black-sub rounded-20 p-3 py-lg-4"
@@ -76,7 +93,7 @@
                       src="./assets/icons/arrow-right-blue.svg"
                       class="icon__img__16"
                     />
-                    <span class="fw-medium fs-18"
+                    <span class="fw-medium fs-16 text-gray-main"
                       >Hồ sơ không đúng với tiêu chuẩn</span
                     >
                   </li>
@@ -87,7 +104,7 @@
                       src="./assets/icons/arrow-right-blue.svg"
                       class="icon__img__16"
                     />
-                    <span class="fw-medium fs-18">Vấn đề 3</span>
+                    <span class="fw-medium fs-16 text-gray-main">Vấn đề 3</span>
                   </li>
                   <li
                     class="d-flex align-items-center justify-content-start gap-3 bg-black-sub rounded-20 p-3 py-lg-4"
@@ -96,7 +113,7 @@
                       src="./assets/icons/arrow-right-blue.svg"
                       class="icon__img__16"
                     />
-                    <span class="fw-medium fs-18">Vấn đề 4</span>
+                    <span class="fw-medium fs-16 text-gray-main">Vấn đề 4</span>
                   </li>
                 </ul>
                 <p class="line-h-22">
@@ -109,17 +126,9 @@
                   Liên hệ tư vấn
                   <img
                     src="./assets/icons/arrow-right-white.svg"
-                    class="icon__img__16"
+                    class="icon__img__16 z-3"
                   />
                 </button>
-              </div>
-            </div>
-            <div class="col-12 col-lg-6">
-              <div>
-                <img
-                  class="w-full h-full obf-contain"
-                  src="https://s3-alpha-sig.figma.com/img/6cdc/7b39/f1f351b72c19a538d4747ad7161e3cfb?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=RUeN50Qe71-kwi9CNnJu2zj0cbx3vZLGGEzUBU198gdntbXmK7SuUrYnjIBFxhCT0kIxf2FhP4OU8d9ap-gXxXyK4Azhj2OzU7LM3Qkx3XT~ZiSUzpxrqwcX7ZirVa5U36TmB~zSGMepDHlInHq04~dwkZbXSjro6UDcve7JS-GxdhrcSgW2yPc4qWH96X7hvTHHkiPGP741ck9b2HBEt3Y0qljQ--OhYMpgYoe9lQeG7rmFaPMHaDy6xOh5Io5XUAhKNci93XJxhjGU4IpNVbmHDFzXnPl1e-uAK4HLICXRT8E6x6Bxg6sBvgE7bjYo7fGIKVsmMcOlDNqP88MWFg__"
-                />
               </div>
             </div>
           </div>
@@ -127,7 +136,7 @@
       </section>
       <section class="service__product d-grid gap-2 gap-md-3 gap-lg-4">
         <h3 class="title-28 text-center">Các dịch vụ tại Thuận Phát</h3>
-        <div class="container">
+        <div class="container__small">
           <div class="row g-2 g-md-3 g-lg-4">
             <div class="col-12 col-lg-6">
               <div
@@ -248,13 +257,13 @@
       </section>
       <!-- các dịch vụ khác -->
 
-      <section class="service__other d-grid gap-2 gap-md-3 gap-lg-4">
+      <section class="service__other d-grid d-grid gap-2 gap-md-3 gap-lg-4">
         <h3 class="title-28 text-center">Các dịch vụ khác</h3>
         <div class="container">
           <div class="row gx-2 g-2 justify-content-center">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
               <div
-                class="h-full bg-primary-2 p-3 p-lg-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+                class="h-full bg-primary-2 p-2 px-3 rounded-20 d-flex align-items-center justify-content-between justify-content-lg-start gap-2"
               >
                 <h6
                   class="text-white text-start line-h-24 fw-medium service__other__item"
@@ -269,7 +278,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
               <div
-                class="h-full bg-primary-2 p-3 p-lg-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+                class="h-full bg-primary-2 p-2 px-3 rounded-20 d-flex align-items-center justify-content-between justify-content-lg-start gap-2"
               >
                 <h6
                   class="text-white text-start line-h-24 fw-medium service__other__item"
@@ -284,7 +293,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
               <div
-                class="h-full bg-primary-2 p-3 p-lg-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+                class="h-full bg-primary-2 p-2 px-3 rounded-20 d-flex align-items-center justify-content-between justify-content-lg-start gap-2"
               >
                 <h6
                   class="text-white text-start line-h-24 fw-medium service__other__item"
@@ -299,7 +308,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
               <div
-                class="h-full bg-primary-2 p-3 p-lg-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+                class="h-full bg-primary-2 p-2 px-3 rounded-20 d-flex align-items-center justify-content-between justify-content-lg-start gap-2"
               >
                 <h6
                   class="text-white text-start line-h-24 fw-medium service__other__item"
@@ -314,7 +323,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
               <div
-                class="h-full bg-primary-2 p-3 p-lg-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+                class="h-full bg-primary-2 p-2 px-3 rounded-20 d-flex align-items-center justify-content-between justify-content-lg-start gap-2"
               >
                 <h6
                   class="text-white text-start line-h-24 fw-medium service__other__item"
@@ -329,7 +338,7 @@
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
               <div
-                class="h-full bg-primary-2 p-3 p-lg-2 rounded-20 d-flex align-items-center justify-content-between px-3 justify-content-lg-start gap-2"
+                class="h-full bg-primary-2 p-2 px-3 rounded-20 d-flex align-items-center justify-content-between justify-content-lg-start gap-2"
               >
                 <h6
                   class="text-white text-start line-h-24 fw-medium service__other__item"
@@ -353,7 +362,7 @@
             <div class="row g-4">
               <div class="col-12 col-lg-6">
                 <div
-                  class="d-flex flex-column align-items-start justify-content-start gap-1 gap-md-2 gap-lg-3"
+                  class="d-flex flex-column align-items-start justify-content-start gap-2 gap-lg-3 mt-0 mt-lg-5"
                 >
                   <h4 class="text-white fs-28 fw-bolder line-h-28">
                     Các bước làm hồ sơ tại Thuận Phát
@@ -362,7 +371,7 @@
                     Liên hệ ngay với chúng tôi, chuyên gia sẽ hướng dẫn bạn
                   </p>
                   <button
-                    class="d-flex align-items-center justify-content-center btn-primary rounded-20 p-2 p-lg-3 border-0 gap-2 fw-medium"
+                    class="d-flex align-items-center justify-content-center btn-primary rounded-20 p-2 px-3 p-lg-3 border-0 gap-2 fw-medium"
                   >
                     Liên hệ ngay
                     <img
@@ -374,17 +383,17 @@
               </div>
               <div class="col-12 col-lg-6">
                 <div
-                  class="d-flex flex-column align-items-start justify-content-start gap-2rem gap-md-4 gap-lg-5"
+                  class="d-flex flex-column align-items-start justify-content-start gap-2rem gap-md-5 gap-lg-4 gap-xl-5"
                 >
                   <div
-                    class="d-flex align-items-start justify-content-start gap-3 gap-lg-4"
+                    class="d-flex align-items-start justify-content-start gap-2 gap-md-3 gap-lg-4"
                   >
                     <div
-                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
+                      class="d-flex text-primary fs-20 fw-semibold align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       1
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-1 gap-lg-2">
                       <h4 class="text-white fs-20 fw-bolder">Đăng ký</h4>
                       <p class="text-white line-h-20 fs-16">
                         Excepteur sint occaecat cupidatat non proident sunt in
@@ -393,14 +402,14 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex align-items-start justify-content-start gap-3 gap-lg-4"
+                    class="d-flex align-items-start justify-content-start gap-2 gap-md-3 gap-lg-4"
                   >
                     <div
-                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
+                      class="d-flex text-primary fs-20 fw-semibold align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       2
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-1 gap-lg-2">
                       <h4 class="text-white fs-20 fw-bolder">Tư vấn</h4>
                       <p class="text-white line-h-20 fs-16">
                         Excepteur sint occaecat cupidatat non proident sunt in
@@ -409,14 +418,14 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex align-items-start justify-content-start gap-3 gap-lg-4"
+                    class="d-flex align-items-start justify-content-start gap-2 gap-md-3 gap-lg-4"
                   >
                     <div
-                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
+                      class="d-flex text-primary fs-20 fw-semibold align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       3
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-1 gap-lg-2">
                       <h4 class="text-white fs-20 fw-bolder">
                         Khách hàng nộp hồ sơ cho chuyên viên
                       </h4>
@@ -427,14 +436,14 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex align-items-start justify-content-start gap-3 gap-lg-4"
+                    class="d-flex align-items-start justify-content-start gap-2 gap-md-3 gap-lg-4"
                   >
                     <div
-                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
+                      class="d-flex text-primary fs-20 fw-semibold align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       4
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-1 gap-lg-2">
                       <h4 class="text-white fs-20 fw-bolder">
                         Hoàn thiện hồ sơ
                       </h4>
@@ -445,14 +454,14 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex align-items-start justify-content-start gap-3 gap-lg-4"
+                    class="d-flex align-items-start justify-content-start gap-2 gap-md-3 gap-lg-4"
                   >
                     <div
-                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
+                      class="d-flex text-primary fs-20 fw-semibold align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       5
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-1 gap-lg-2">
                       <h4 class="text-white fs-20 fw-bolder">
                         Chuyên viên đại diện hồ sơ
                       </h4>
@@ -463,14 +472,14 @@
                     </div>
                   </div>
                   <div
-                    class="d-flex align-items-start justify-content-start gap-3 gap-lg-4"
+                    class="d-flex align-items-start justify-content-start gap-2 gap-md-3 gap-lg-4"
                   >
                     <div
-                      class="d-flex text-primary fs-20 align-items-center justify-content-center items__number bg-yellow rounded-circle"
+                      class="d-flex text-primary fs-20 fw-semibold align-items-center justify-content-center items__number bg-yellow rounded-circle"
                     >
                       6
                     </div>
-                    <div class="d-grid gap-2">
+                    <div class="d-grid gap-1 gap-lg-2">
                       <h4 class="text-white fs-20 fw-bolder line-h-22">
                         Gửi lại kết quả cho khách hàng
                       </h4>
@@ -596,13 +605,13 @@
           Đối tác và Khách hàng của chúng tôi
         </h3>
         <div class="container">
-          <div class="row g-2">
+          <div class="row g-md-2 g-lg-3 g-xl-3">
             <div class="col-4 col-md-3 col-lg-2">
               <div
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/64e4/700d/e007375c4f809a59e9b0b902964c9bd1?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=CewS5eCtcZtwDREg2K8J7yt0N9yoLr4Vqu0-AQy-uK96k2nRNkKNBCJSC57LJcGDl5EA70mIycSWZleCxAfCM5ShwozeNFAGg-DRE9hMKc4r74PS9eB8FZtSVXNYDfW~gmvdUIFS8~YbPw6NUMos7fMroOQKVAWVMOlI~x2XKF~k3c-bghpkC0AlukMOG0ev1GirF0BFL1jd-wAquSo05wei2qRA-xZjPkZYVP-2oaolkYaSLVRzQLeyO5S6KawLE0awwSsFylYLWLNl8ddsui1BV52an1aQPI50BYrXbXm0rFhMKnf5DvKkx-HDh17f5E7hY2geoOOzLAnCm-E64g__"
                 />
               </div>
@@ -629,7 +638,7 @@
             </div>
             <div class="col-4 col-md-3 col-lg-2">
               <div
-                class="bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
+                class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
                   class="size-60 obf-contain"
@@ -642,7 +651,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/d8d0/794b/cec497efe01a8c1cc687b25bb7b0db56?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cPMZdIarYjXAjvqQocP5Go0Eph0keyGsczuiS0A2BfSwR1WcjFpvZ9FUtn4CGX2ZTryAoeIl8cDzFQT-Q4nyOq7rXDMdczBnh5ua086iNjYrXDV5A63BqlkQ-5gbEmLYFh~lXZKyi-0nm5jCjYbbb52hddkG2dLNggAS7o8S8WWdYb1fYSRnetRfsobo-ZdM1GHkLrnKCCBrE7DQmEqXd8wPn6WGyqFDo4BRPyBj11OV3~0lQniq4L~GcVULEwv42EjRDyWqZ0kRljAHXYoRZxZRg~DFoFKoRNQAEOJknzNfNPO4-Z8vP6qemS8X0JZM-bvXo9-Ktvlrao93QONHvg__"
                 />
               </div>
@@ -652,7 +661,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/9168/0443/934d7c296f01e7936db342b0b52ca28f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iFLRk7~KqhGx8-bP6Z~xGRDzNlsFDD2RiArUVvKeT3oY6lWmB00-7l6L6A0QrsodYaasR-5FAqjZn7VhziAk7pPFy4dkFjtFNazWPDxZgsq-oLp8rt1FzpT4WRcBXIW-gBwZe9CbZaQuK9dVrZGRxKJIruNefAKsD4ebtUSf4Bv-O5OhcSyjdIOFYsFil0SuL49WO8ONKmTyWNVKFH5IQW3BPuitFOeYa3RMjZ6kzBzTpkNVXUlCLDxagFP08t3-IH~Ebr7wQXfdJG1orBnMUKdnu~DMQtKyoi9ojC62XvHiqDdVy~EWjMi0JuDmXyHZUY2g7xrtbM5hoRuGwU8Spg__"
                 />
               </div>
@@ -662,7 +671,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/d8d0/794b/cec497efe01a8c1cc687b25bb7b0db56?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=cPMZdIarYjXAjvqQocP5Go0Eph0keyGsczuiS0A2BfSwR1WcjFpvZ9FUtn4CGX2ZTryAoeIl8cDzFQT-Q4nyOq7rXDMdczBnh5ua086iNjYrXDV5A63BqlkQ-5gbEmLYFh~lXZKyi-0nm5jCjYbbb52hddkG2dLNggAS7o8S8WWdYb1fYSRnetRfsobo-ZdM1GHkLrnKCCBrE7DQmEqXd8wPn6WGyqFDo4BRPyBj11OV3~0lQniq4L~GcVULEwv42EjRDyWqZ0kRljAHXYoRZxZRg~DFoFKoRNQAEOJknzNfNPO4-Z8vP6qemS8X0JZM-bvXo9-Ktvlrao93QONHvg__"
                 />
               </div>
@@ -672,7 +681,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/a9e8/53bc/a0cdbb743ce9c6c39a7d48b7e0eed900?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XZgQv-pk1iiQl3SoVkuXb7AV7a~DNBXGNEikzy6karb47hwP4qftz70wTUgzpqYlb2C9bPiDvDnMHE7pwprDYvAb54g5Y2P~bymwRn5fL2SL4WR95wDPrK~aUK35Nc512oAkDaZ0SPJUgGg2oQfjrqwa4b9bx3t0yRSURs5JVOMnJ0oUE~LUjW68oVvZv8i-xFvtZSCEemD-RmEg~-p18zgvUOIUU7alYC7K~7db4w32wAQ692N84j-QmGmXYBeI81Ubvvjv7w6AKJlNc5h3LyA1V-s87pKF-pEBdAJtZ4WykMkY7tQYw8lz67KJnXQyhzqwFNIJwES39JNNkxT2IA__"
                 />
               </div>
@@ -692,7 +701,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/2cda/6564/cfc1009c162abe68f430e9d67210376c?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jwkITKxzJVeCCv~rYBXryLY7W38tNd3UTQjQ-9wbWUfwsHlJdHTrRd97-cfCngDcyUW2hwtrHP5ivMb-3vpBfdNUPhVW9uXoaj-nX9Zaz7jF80KzPIJ05uDDq5YhSwORDjntnX4TRC-X0id4grhVz3MP3p4DmlIVlSKpcQFHhGW8HG~~jkfH8CAqz7QondjUFb4-SFEsLyKeNyfMEvlSMOXwcIO8091gSZ8auBCLuF9L0LbnRlJ145qc2jSvrDcCy7blC82Q5yTzyHCsymwFJyoCe03lWGXUCeXzd-YZeaNWuDgkVuI-S2yo~CXa0WTBypuRiinkAoYKE~ImJvkkmg__"
                 />
               </div>
@@ -702,7 +711,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/37d7/46f2/45e7f91b695f884151f284348a7882fd?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=rm6~9TxXKYAYQx7Gl~PI3CPYeWa5mYGkTpLniH42b65jjWrODnv2CUm6TJYesfZRGx7tFZ3Jjkykvc2~7ZkLiEVuBhmzb-ZRgjcmYUmWTWfflf7a6UAF581n5wleyLttOZUMJr2OSwnE28Jwfsss6gJogWjftCnHrpu-ptvBcx61kXCAGO8Tkq0OCD-ZSkj4ty6lj7~FdFpyiegfTEFs73Tx67pmtzasQTdn1XJNjRJFoBJcvTcT~-f7OYlrIJGeRbh7G26qv-HWclCtuKl5DCe9p3d23I7VX154RIA4rnaXRspSFIcflGdQKPS4uXy~~JrcWoO7PSa~1alpOYtvVg__"
                 />
               </div>
@@ -712,7 +721,7 @@
                 class="h-full logo__item bg-black-sub d-flex align-items-center justify-content-center p-2 rounded-3"
               >
                 <img
-                  class="w-full h-full obf-contain size-60"
+                  class="w-full h-full obf-contain size-60 add"
                   src="https://s3-alpha-sig.figma.com/img/7232/5c1e/0cda00c2058433f4907258f1573951e0?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsL2HnQgsKbKCuS4Ud93i1chyyWWSIeHh24wcnkR9K5CYLycbI5dSZv1uuEZ99wZn6-1MszRqSoBMesFKTjSncGt9Dmd7M3gz6WmqfwK0Kl56sB8-dJh9P3cVbsnMCOeVcuj1ohlCy7bvzw5li0w-nyFIhD1ftIJWrATbvbUrapIJYNu8PaSwzTVxdPi~rh5N8Kih5xaLa9~O6WGQW1k0tKEG8lTMLNSjs9y3SnEZssIHWh0yIZFdzf4liwPoieEVj5fi~ftJVAtxLB4gf-jIF-gNQRUF~m2nJG5J4frNNS~eFA8uXdx6yhG5BTWVswN0PNv~8kMvp6X1mkqGSu8rw__"
                 />
               </div>
