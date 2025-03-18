@@ -151,6 +151,11 @@ table {
 body {
   font-family: "Inter", "sans-serif";
 }
+.container__small {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
 /* height */
 .h-full {
   height: 100%;
