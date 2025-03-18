@@ -1,0 +1,14 @@
+.btn__dropdown {
+}
+.btn__dropdown:hover {
+  background-color: var(--bg-blue_main) !important;
+  opacity: 90 !important;
+}
+.btn__dropdown:focus {
+  background-color: var(--bg-blue_main) !important;
+  opacity: 90 !important;
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+.dropdown-menu {
+}

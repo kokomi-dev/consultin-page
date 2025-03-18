@@ -35,14 +35,17 @@
           class="w-full obf-cover"
         />
         <div
-          class="w-full position-absolute top-50 start-50 translate-middle text-white p-3 rounded"
+          class="w-full position-absolute top-50 start-50 translate-middle text-white p-3 rounded z-3"
         >
-          <h2 class="text-center font__size__banner">
+          <h2 class="text-center font__size__banner text-yellow">
             Danh mục cẩm nang kiến thức
           </h2>
         </div>
+        <div
+          class="position-absolute top-0 start-0 end-0 bottom-0 bg-blur"
+        ></div>
       </section>
-      <section>
+      <section class="d-none d-lg-block">
         <div class="container">
           <div class="row g-2">
             <div class="col-4 col-md-3 col-lg-2">
@@ -88,6 +91,55 @@
           </div>
         </div>
       </section>
+      <!-- danh mục mobile -->
+      <section class="d-block d-lg-none container">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle bg-primary_main text-white btn__dropdown"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Danh mục
+          </button>
+          <div
+            class="dropdown-menu p-2 shadow-lg"
+            aria-labelledby="dropdownMenuButton1"
+          >
+            <button
+              class="py-3 bg-transparent w-full text-start px-2 fs-18 text-primary fw-medium border-bottom border-black"
+            >
+              Danh mục 1
+            </button>
+            <button
+              class="py-3 bg-transparent w-full text-start px-2 fs-18 text-primary fw-medium border-bottom border-black"
+            >
+              Danh mục 2
+            </button>
+            <button
+              class="py-3 bg-transparent w-full text-start px-2 fs-18 text-primary fw-medium border-bottom border-black"
+            >
+              Danh mục 3
+            </button>
+            <button
+              class="py-3 bg-transparent w-full text-start px-2 fs-18 text-primary fw-medium border-bottom border-black"
+            >
+              Danh mục 4
+            </button>
+            <button
+              class="py-3 bg-transparent w-full text-start px-2 fs-18 text-primary fw-medium border-bottom border-black"
+            >
+              Danh mục 5
+            </button>
+            <button
+              class="py-3 bg-transparent w-full text-start px-2 fs-18 text-primary fw-medium"
+            >
+              Danh mục 6
+            </button>
+          </div>
+        </div>
+      </section>
       <section class="service__product d-grid gap-3">
         <h3 class="title-28 text-center mb-4 px-4">
           Bài viết cẩm nang kiến thức
@@ -99,7 +151,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -122,7 +174,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -145,7 +197,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/7752/a970/363e97d7fcf290b3f717b0a7003b2a09?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WHd6KDvZVpeo31jr40FWyAwWycsSqLHPOTmRyLGsNaOjj50pyGdLaFIFVAQDpbJFlBvmLup0GPvPF35Ej8Df1JWNfuz02VggSrgMGvEzRFFaAu24kH51mq6E-l-Nk45C4wgQbcC7OQQ7iAPxyMHmizvA8eVQ4sHVOS6hkl9v8x9ov9n4ZkdkE~qmTSIs9nDijwG0E3IqJEyIhoPdwR0VealdqSMP~GNHYttQMc4~fEIzK9mu6IUoXHu-dWCpQkd2CfUx5k4d94qEV5enlqVZizJ-yrFWtZw-EXd4QItB-1HuTI-Kygbjfm0klIzYdSONPjnmySpd91khVFnertaFcg__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -168,7 +220,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -197,7 +249,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -220,7 +272,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -243,7 +295,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/7752/a970/363e97d7fcf290b3f717b0a7003b2a09?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WHd6KDvZVpeo31jr40FWyAwWycsSqLHPOTmRyLGsNaOjj50pyGdLaFIFVAQDpbJFlBvmLup0GPvPF35Ej8Df1JWNfuz02VggSrgMGvEzRFFaAu24kH51mq6E-l-Nk45C4wgQbcC7OQQ7iAPxyMHmizvA8eVQ4sHVOS6hkl9v8x9ov9n4ZkdkE~qmTSIs9nDijwG0E3IqJEyIhoPdwR0VealdqSMP~GNHYttQMc4~fEIzK9mu6IUoXHu-dWCpQkd2CfUx5k4d94qEV5enlqVZizJ-yrFWtZw-EXd4QItB-1HuTI-Kygbjfm0klIzYdSONPjnmySpd91khVFnertaFcg__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -266,7 +318,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -295,7 +347,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/350b/0dac/fa1123794a87104bddfbdde7ed0f7b1d?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jsqGZCssSJ3twUUcsJD6bpl-HXtKyzPqbaE3hNCKRGSN7qt5oP2YhwKTMYKogvSwRvL5E2QkiAVIqR2in3ZKcenwmTGahUHIZHTp72eqo56TINKJVWkn24oCz17~1Ml71uTPUGYKuNavu6Qn0VZixSiaFagU5odkzSYVlGh3AP-bEsNPR2pVEED1qWaAL6HqYwVWXsvjPLNNPGyBWXaY0itmwXVd7CcqLuULUhQNGa6Bzkv1o6XYC5ePvu6ktJTfJsAKjmOLTWUCdGvQ6wv-5fXkIZmg0O6OrHpQQdYMDnoUcgOoccqBHRu~zybRGOFrfLoQZAdOd88jmNNt050Ppw__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -318,7 +370,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/e705/9873/46ebd5897c8b2a36ae6e92aca67e4d67?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JAVvHuVx34dzYmINk~ksQ99w06cdN7my2XxZH7ghvSv4X-Z2JY5FbJWAzswa-FIqxSkKXgUD9NZUY9q5IIyZyakbcMMMdq7FhUnJe5AdUeIWy97ynZv5C9PZd0uzpk-ewz1HJu9GR4Zu6xWFlphB8brOdi7cwzNsFS0lizixSAYZEwmyqqEtOMUX3V~xLUA3Y~npJWqzskeL90LcXshv5rTJdsLvrndFyHjhDxUK5Z44vfSzVA4T-lYk1x0UqOSpytcQLLf1glbIRG1jmBj8nymsOPolqAU~FNrM8lrCXdC-mO3kproYk5eRP380dwOjsDpaaN~4LWAPOjn7N-bedQ__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -341,7 +393,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/7752/a970/363e97d7fcf290b3f717b0a7003b2a09?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WHd6KDvZVpeo31jr40FWyAwWycsSqLHPOTmRyLGsNaOjj50pyGdLaFIFVAQDpbJFlBvmLup0GPvPF35Ej8Df1JWNfuz02VggSrgMGvEzRFFaAu24kH51mq6E-l-Nk45C4wgQbcC7OQQ7iAPxyMHmizvA8eVQ4sHVOS6hkl9v8x9ov9n4ZkdkE~qmTSIs9nDijwG0E3IqJEyIhoPdwR0VealdqSMP~GNHYttQMc4~fEIzK9mu6IUoXHu-dWCpQkd2CfUx5k4d94qEV5enlqVZizJ-yrFWtZw-EXd4QItB-1HuTI-Kygbjfm0klIzYdSONPjnmySpd91khVFnertaFcg__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">
@@ -364,7 +416,7 @@
                 class="h-220 w-full obf-cover"
                 src="https://s3-alpha-sig.figma.com/img/aa9f/aec4/3672a797825bbbbed94d57efc126ab32?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pLMLRFDg~gmVziGXvJ75ZI45ScdH0SjTJ1D1RIeosBP4zCuIbwhl~O6QU3vlZxuoOaihcb4krrBS4ZFZe5KpJ9MLqC7OzEpHcO4JwODp1WAaAdAGuStSVNI3r12zjWxvigaz-TntZhuzyCVgtuE42sLq2lKyO-XAFz3jUqycbn38eDjNNnt2MIQx~WPQbP3mIhzWeC7Pg48Nj89ZQnBLL52eLf7zBiKEPL8cWMyZSG0naF3agVZA2fJ5oTi28Ak2cfCV-Ht3nl~UrGiEIMUNtP7Z~uXuWJmuFpPaBWuHOiKlLb5v3G2bDB39hjCCAwpEc5bV9Bv9-SpMg56FVWRBJQ__"
               />
-              <h4 class="text-primary fs-20 fw-bolder mt-1">
+              <h4 class="text-primary fs-22 line-h-30 fw-bolder mt-1">
                 Hướng dẫn chi tiết cách đặt nộp hồ sơ nhanh chóng
               </h4>
               <p class="fs-16 text-gray-sub line-h-22">

@@ -27,21 +27,12 @@
   position: relative;
   display: flex;
 }
-.nav__bar__logo::before {
-  width: 130%;
-  height: 20px;
-  position: absolute;
-  top: -20px;
-  left: 0;
-  content: "";
-  background-color: var(--bg-white);
-  border-radius: 8px;
-  z-index: 1;
+.header__blur {
+  top: -28px;
 }
 .logo__img {
   width: 160px;
   z-index: 3;
-  margin-left: 15%;
 }
 .nav__container {
   width: 100%;
@@ -56,7 +47,9 @@
   font-size: 16px;
   color: var(--blue_main) !important;
 }
-
+.navbar-brand {
+  z-index: 4;
+}
 .btn__sidebar {
   border: none;
 }
@@ -179,6 +172,7 @@
   .header__main {
     /* height: 60px; */
   }
+
   .header__top__list {
     display: none;
   }
