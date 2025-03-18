@@ -52,8 +52,11 @@
     h5{
         font-size: 16px !important;
     }
-    p {
+    .section_all p, 
+    .section_gird p, 
+    .section_form p {
         font-size: 12px !important;
     }
+
 }
 

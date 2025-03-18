@@ -138,7 +138,7 @@
             <!-- side bar mobile -->
             <button
               id="btn__menu"
-              class="btn__sidebar d-block d-xl-none p-2 p-md-3 rounded-3 px-3"
+              class="btn__sidebar d-block d-xl-none p-2 rounded-3"
             >
               <img
                 src="/assets/icons/bars-svgrepo-com.svg"
@@ -150,66 +150,95 @@
       </nav>
       <div
         id="sidebar__mobile"
-        class="sidebar__mobile position-fixed right-0 top-0 bg-white z"
+        class="sidebar__mobile position-fixed right-0 top-0 bg-white p-3 p-md-4 p-lg-5"
       >
-        <button id="btn__close" class="position-absolute btn-close"></button>
+        <button
+          id="btn__close"
+          class="position-absolute btn-close text-white"
+        ></button>
         <ul class="navbar-nav d-grid gap-4">
           <li>
-            <a aria-current="page" href="../index.html">Trang chủ</a>
+            <a aria-current="page" href="../index.html">
+              <img src="../assets/icons/home-icon.svg" class="icon__img__18" />
+              Trang chủ</a
+            >
           </li>
           <li>
-            <a href="./about.html"
-              >Về chúng tôi
-              <img class="icon__img__10" src="../assets/icons/arrow-down.png" />
+            <a href="./about.html">
+              <img
+                src="../assets/icons/about-icon.svg"
+                class="icon__img__18"
+              />Về chúng tôi
             </a>
           </li>
           <li>
-            <a href="../dichvuhoso.html"
-              >Dịch vụ hồ sơ
-              <img class="icon__img__10" src="../assets/icons/arrow-down.png" />
+            <a href="../dichvuhoso.html">
+              <img
+                src="../assets/icons/cloud-storage-svgrepo-com.svg"
+                class="icon__img__18"
+              />
+              Dịch vụ hồ sơ
             </a>
           </li>
           <li>
-            <a href="../danhmuccamnagkienthuc.html"
-              >Cẩm nang kiến thức
-              <img class="icon__img__10" src="../assets/icons/arrow-down.png" />
+            <a href="../danhmuccamnagkienthuc.html">
+              <img
+                src="../assets/icons/camnangkienthuc-icon.svg"
+                class="icon__img__18"
+              />
+              Cẩm nang kiến thức
             </a>
           </li>
           <li>
-            <a href="../handbook _articles.html">Văn bản pháp luật</a>
+            <a href="../handbook _articles.html">
+              <img
+                src="../assets/icons/legal-issue-svgrepo-com.svg"
+                class="icon__img__18"
+              />Văn bản pháp luật</a
+            >
           </li>
           <li>
-            <a href="../tintuc.html">Tin tức</a>
+            <a href="../tintuc.html">
+              <img
+                src="../assets/icons/news-icon.svg"
+                class="icon__img__18"
+              />Tin tức</a
+            >
           </li>
           <li>
-            <a href="../lienhe.html">Liên hệ</a>
+            <a href="../lienhe.html">
+              <img
+                src="../assets/icons/contact-icon.svg"
+                class="icon__img__18"
+              />Liên hệ
+            </a>
           </li>
         </ul>
-        <hr />
-        <div
-          class="header__top__item d-flex align-items-start justify-content-start gap-2 mt-4"
-        >
+        <hr class="bg-white" />
+        <div class="d-flex align-items-start justify-content-start gap-2 mt-3">
           <img
             src="../assets/icons/phone.png"
             alt="phone"
             width="16"
             height="16"
-            class="icon__img__16"
+            class="icon__img__18 text-white"
           />
-          <span
+          <span class="fs-14 text-white"
             >Hotline:
-            <a href="tel:09123456789" class="text-dark text-decoration-none"
+            <a href="tel:09123456789" class="text-white text-decoration-none"
               >09123 456 789</a
             ></span
           >
         </div>
-        <div class="header__top__item d-flex align-items-center gap-2 mt-4">
+        <div class="d-flex align-items-center gap-2 mt-3">
           <img
             src="../assets/icons/time.png"
             alt="time"
-            class="icon__img__16"
+            class="icon__img__18"
           />
-          <span>Giờ làm việc: T2 - T6 8:30 - 5:30</span>
+          <span class="fs-14 text-white"
+            >Giờ làm việc: T2 - T6 8:30 - 5:30</span
+          >
         </div>
       </div>
     </div>
