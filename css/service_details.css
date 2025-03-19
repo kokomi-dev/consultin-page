@@ -4,6 +4,9 @@
 .text-primary {
     color: var(--blue_main) !important;
 }
+.text-fw {
+    font-weight: 600;
+}
 .container-sm {
     max-width: 1000px;
 }
@@ -133,6 +136,9 @@
 }
 
 @media screen and (max-width: 576px) { 
+    .fw-bold {
+        font-weight: 600 !important;
+    }
     h1,h2,h3{
         font-size: 20px !important;
     }

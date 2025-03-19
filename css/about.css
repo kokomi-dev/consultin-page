@@ -4,6 +4,9 @@
 .container-sm {
     max-width: 1000px;
 }
+.text-fw {
+    font-weight: 600;
+}
 .bg-table {
     background: #F2F2F2;
 }
@@ -50,6 +53,9 @@
     height: 25px;
 }
 @media screen and (max-width: 576px) { 
+    .fw-bold {
+        font-weight: 600 !important;
+    }
     h1,h2,h3{
         font-size: 20px !important;
     }
