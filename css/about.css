@@ -4,7 +4,9 @@
 .container-sm {
     max-width: 1000px;
 }
-
+.text-fw {
+    font-weight: 600;
+}
 .bg-table {
     background: #F2F2F2;
 }
