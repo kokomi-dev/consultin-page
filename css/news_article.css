@@ -13,6 +13,9 @@
 .text-primary {
     color: var(--blue_main) !important;
 }
+.text-fw {
+    font-weight: 600;
+}
 #img_header {
     max-height: 350px; 
     width: 100%; 

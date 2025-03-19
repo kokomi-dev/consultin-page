@@ -4,6 +4,9 @@
 .text-primary {
     color: var(--blue_main) !important;
 }
+.text-fw {
+    font-weight: 600;
+}
 .container-sm {
     max-width: 1000px;
 }
